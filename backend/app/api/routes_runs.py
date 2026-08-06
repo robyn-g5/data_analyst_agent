@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from typing import Literal
 
-from fastapi import APIRouter, BackgroundTasks, HTTPException
-from fastapi.responses import RedirectResponse
+from fastapi import APIRouter, BackgroundTasks, HTTPException, Request
+from fastapi.responses import HTMLResponse, RedirectResponse
 
 from app.db import repository as db
 from app.models.schemas import ClarifyRequest, RunDetailOut, RunSummaryOut, RunsResponse
@@ -28,10 +28,15 @@ def _signed_or_none(path: str | None) -> str | None:
     return storage.signed_url(storage.outputs_bucket(), path)
 
 
-def _to_run_detail(row: dict) -> RunDetailOut:
+def _to_run_detail(row: dict, request: Request) -> RunDetailOut:
+    dashboard_url = (
+        str(request.base_url).rstrip("/") + f"/api/runs/{row['id']}/dashboard"
+        if row.get("dashboard_html_path")
+        else None
+    )
     return RunDetailOut(
         **RunSummaryOut.from_row(row).model_dump(),
-        dashboard_html_url=_signed_or_none(row.get("dashboard_html_path")),
+        dashboard_html_url=dashboard_url,
         report_md_url=_signed_or_none(row.get("report_md_path")),
         analysis_results_url=_signed_or_none(row.get("analysis_results_path")),
         validation_report_url=_signed_or_none(row.get("validation_report_path")),
@@ -45,11 +50,26 @@ def list_runs() -> RunsResponse:
 
 
 @router.get("/{run_id}", response_model=RunDetailOut)
-def get_run(run_id: str) -> RunDetailOut:
+def get_run(run_id: str, request: Request) -> RunDetailOut:
     row = db.get_run(run_id)
     if not row:
         raise HTTPException(status_code=404, detail="Run not found")
-    return _to_run_detail(row)
+    return _to_run_detail(row, request)
+
+
+@router.get("/{run_id}/dashboard", response_class=HTMLResponse)
+def get_run_dashboard(run_id: str) -> HTMLResponse:
+    """Serves the dashboard HTML directly (not a redirect to Supabase
+    Storage) — Storage serves all objects as text/plain with a strict CSP
+    that blocks rendering, so an iframe pointed at it shows raw source
+    instead of the dashboard. Proxying through here gives us full control
+    over the response headers.
+    """
+    row = db.get_run(run_id)
+    if not row or not row.get("dashboard_html_path"):
+        raise HTTPException(status_code=404, detail="Dashboard not available for this run")
+    html = storage.download_bytes(storage.outputs_bucket(), row["dashboard_html_path"])
+    return HTMLResponse(content=html)
 
 
 @router.get("/{run_id}/status", response_model=RunSummaryOut)
