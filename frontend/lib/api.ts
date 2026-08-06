@@ -1,22 +1,9 @@
-import { createClient } from "./supabaseClient";
 import type { ChatMessage, RunDetail, RunSummary } from "./types";
 
 const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL!;
 
-async function authHeaders(): Promise<HeadersInit> {
-  const supabase = createClient();
-  const {
-    data: { session },
-  } = await supabase.auth.getSession();
-  return session ? { Authorization: `Bearer ${session.access_token}` } : {};
-}
-
 async function apiFetch<T>(path: string, init?: RequestInit): Promise<T> {
-  const headers = await authHeaders();
-  const res = await fetch(`${API_BASE}${path}`, {
-    ...init,
-    headers: { ...headers, ...(init?.headers ?? {}) },
-  });
+  const res = await fetch(`${API_BASE}${path}`, init);
   if (!res.ok) {
     const text = await res.text().catch(() => "");
     throw new Error(`${res.status} ${res.statusText}: ${text}`);
@@ -50,12 +37,7 @@ export async function sendMessage(
   const form = new FormData();
   form.set("content", content);
   files.forEach((file) => form.append("files", file));
-  const headers = await authHeaders();
-  const res = await fetch(`${API_BASE}/api/chat/messages`, {
-    method: "POST",
-    headers,
-    body: form,
-  });
+  const res = await fetch(`${API_BASE}/api/chat/messages`, { method: "POST", body: form });
   if (!res.ok) {
     const text = await res.text().catch(() => "");
     throw new Error(`${res.status} ${res.statusText}: ${text}`);

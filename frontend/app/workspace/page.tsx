@@ -4,7 +4,6 @@ import { useEffect, useMemo, useState } from "react";
 import { RunHistoryPanel } from "@/components/RunHistoryPanel";
 import { ChatPanel } from "@/components/ChatPanel";
 import { DashboardPanel } from "@/components/DashboardPanel";
-import { SignOutButton } from "@/components/SignOutButton";
 import { useRuns } from "@/hooks/useRuns";
 import { useChatMessages, useInvalidateChat } from "@/hooks/useChatMessages";
 import { useRunStatus } from "@/hooks/useRunStatus";
@@ -56,7 +55,6 @@ export default function WorkspacePage() {
     <div className="flex h-screen flex-col">
       <header className="flex items-center justify-between border-b border-neutral-200 bg-white px-5 py-3">
         <h1 className="text-sm font-semibold text-neutral-900">Executive Analytics</h1>
-        <SignOutButton />
       </header>
       <div className="flex min-h-0 flex-1">
         <RunHistoryPanel runs={runs} selectedRunId={selectedRunId} onSelect={setSelectedRunId} />

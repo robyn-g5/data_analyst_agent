@@ -1,8 +1,7 @@
 from __future__ import annotations
 
-from fastapi import APIRouter, BackgroundTasks, Depends, File, Form, UploadFile
+from fastapi import APIRouter, BackgroundTasks, File, Form, UploadFile
 
-from app.core.security import CurrentUser, verify_token
 from app.db import repository as db
 from app.models.schemas import ChatMessageOut, ChatMessagePostResponse, ChatMessagesResponse, RunSummaryOut
 from app.services import pipeline_runner, run_manager
@@ -31,11 +30,10 @@ async def post_message(
     background_tasks: BackgroundTasks,
     content: str = Form(""),
     files: list[UploadFile] = File(default=[]),
-    user: CurrentUser = Depends(verify_token),
 ) -> ChatMessagePostResponse:
     file_payloads = [(f.filename, await f.read()) for f in files if f.filename]
     message_row, run_row = run_manager.handle_incoming_message(
-        author_id=user.id, content=content, files=file_payloads
+        author_id=None, content=content, files=file_payloads
     )
     if run_row is not None:
         background_tasks.add_task(pipeline_runner.process_run, run_row["id"])
@@ -46,8 +44,6 @@ async def post_message(
 
 
 @router.get("/messages", response_model=ChatMessagesResponse)
-def list_messages(
-    since: str | None = None, limit: int = 50, user: CurrentUser = Depends(verify_token)
-) -> ChatMessagesResponse:
+def list_messages(since: str | None = None, limit: int = 50) -> ChatMessagesResponse:
     rows = db.list_chat_messages(since_id=since, limit=limit)
     return ChatMessagesResponse(messages=[_to_message_out(r) for r in rows])

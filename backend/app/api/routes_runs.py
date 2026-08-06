@@ -2,10 +2,9 @@ from __future__ import annotations
 
 from typing import Literal
 
-from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException
+from fastapi import APIRouter, BackgroundTasks, HTTPException
 from fastapi.responses import RedirectResponse
 
-from app.core.security import CurrentUser, verify_token
 from app.db import repository as db
 from app.models.schemas import ClarifyRequest, RunDetailOut, RunSummaryOut, RunsResponse
 from app.services import pipeline_runner, storage
@@ -41,12 +40,12 @@ def _to_run_detail(row: dict) -> RunDetailOut:
 
 
 @router.get("", response_model=RunsResponse)
-def list_runs(user: CurrentUser = Depends(verify_token)) -> RunsResponse:
+def list_runs() -> RunsResponse:
     return RunsResponse(runs=[RunSummaryOut.from_row(r) for r in db.list_runs()])
 
 
 @router.get("/{run_id}", response_model=RunDetailOut)
-def get_run(run_id: str, user: CurrentUser = Depends(verify_token)) -> RunDetailOut:
+def get_run(run_id: str) -> RunDetailOut:
     row = db.get_run(run_id)
     if not row:
         raise HTTPException(status_code=404, detail="Run not found")
@@ -54,7 +53,7 @@ def get_run(run_id: str, user: CurrentUser = Depends(verify_token)) -> RunDetail
 
 
 @router.get("/{run_id}/status", response_model=RunSummaryOut)
-def get_run_status(run_id: str, user: CurrentUser = Depends(verify_token)) -> RunSummaryOut:
+def get_run_status(run_id: str) -> RunSummaryOut:
     row = db.get_run(run_id)
     if not row:
         raise HTTPException(status_code=404, detail="Run not found")
@@ -62,7 +61,7 @@ def get_run_status(run_id: str, user: CurrentUser = Depends(verify_token)) -> Ru
 
 
 @router.get("/{run_id}/files/{file_key}")
-def get_run_file(run_id: str, file_key: FileKey, user: CurrentUser = Depends(verify_token)) -> RedirectResponse:
+def get_run_file(run_id: str, file_key: FileKey) -> RedirectResponse:
     row = db.get_run(run_id)
     if not row:
         raise HTTPException(status_code=404, detail="Run not found")
@@ -74,18 +73,13 @@ def get_run_file(run_id: str, file_key: FileKey, user: CurrentUser = Depends(ver
 
 
 @router.post("/{run_id}/clarify", response_model=RunSummaryOut)
-def clarify_run(
-    run_id: str,
-    body: ClarifyRequest,
-    background_tasks: BackgroundTasks,
-    user: CurrentUser = Depends(verify_token),
-) -> RunSummaryOut:
+def clarify_run(run_id: str, body: ClarifyRequest, background_tasks: BackgroundTasks) -> RunSummaryOut:
     row = db.get_run(run_id)
     if not row:
         raise HTTPException(status_code=404, detail="Run not found")
     if row["status"] != "awaiting_clarification":
         raise HTTPException(status_code=409, detail="This run isn't waiting on clarification")
-    db.insert_chat_message(author_id=user.id, role="user", content=body.answer, run_id=run_id)
+    db.insert_chat_message(author_id=None, role="user", content=body.answer, run_id=run_id)
     db.update_run(run_id, status="pending", step=None)
     background_tasks.add_task(pipeline_runner.process_run, run_id)
     return RunSummaryOut.from_row(db.get_run(run_id))
