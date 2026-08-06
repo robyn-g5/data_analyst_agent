@@ -3,6 +3,7 @@ from __future__ import annotations
 from functools import lru_cache
 from pathlib import Path
 
+from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 BACKEND_ROOT = Path(__file__).resolve().parents[2]
@@ -26,6 +27,17 @@ class Settings(BaseSettings):
     pipeline_workspace_dir: Path = BACKEND_ROOT / "app" / "workspace"
     port: int = 8000
     log_level: str = "info"
+
+    # Copy-pasting secrets into a hosting dashboard's env var UI very easily
+    # picks up a stray leading/trailing space or newline, which breaks
+    # strict format checks (e.g. supabase-py's JWT regex) in confusing ways.
+    # Stripping here makes the app robust to that regardless of source.
+    @field_validator(
+        "anthropic_api_key", "supabase_url", "supabase_service_role_key", mode="before"
+    )
+    @classmethod
+    def _strip_whitespace(cls, value: str) -> str:
+        return value.strip() if isinstance(value, str) else value
 
     @property
     def cors_origins(self) -> list[str]:
