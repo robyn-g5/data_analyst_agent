@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: executive-analytics-backend
+    runtime: python
+    plan: starter
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /health
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: SUPABASE_STORAGE_UPLOADS_BUCKET
+        value: chat-uploads
+      - key: SUPABASE_STORAGE_OUTPUTS_BUCKET
+        value: run-outputs
+      - key: BACKEND_CORS_ORIGINS
+        sync: false
+      - key: PIPELINE_WORKSPACE_DIR
+        value: ./app/workspace
+      - key: CLAUDE_MODEL
+        value: claude-sonnet-5
+      - key: PYTHON_VERSION
+        value: 3.11.15

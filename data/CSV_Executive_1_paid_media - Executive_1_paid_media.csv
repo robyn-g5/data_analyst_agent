@@ -1,0 +1,821 @@
+record_id,date,customer_segment,acquisition_channel,region,impressions,clicks,media_spend_usd,data_loaded_at,source_system
+2026-04-01|SMB|Paid Search|North America,2026-04-01,SMB,Paid Search,North America,39298,1704,6198.22,2026-04-02 12:00:00,Synthetic paid media platform export
+2026-04-01|SMB|Paid Search|EMEA,2026-04-01,SMB,Paid Search,EMEA,26520,1118,3789.61,2026-04-02 12:00:00,Synthetic paid media platform export
+2026-04-01|SMB|Paid Search|APAC,2026-04-01,SMB,Paid Search,APAC,26814,1092,3092.92,2026-04-02 12:00:00,Synthetic paid media platform export
+2026-04-01|Mid-Market|Paid Search|North America,2026-04-01,Mid-Market,Paid Search,North America,34131,1411,7131.51,2026-04-02 12:00:00,Synthetic paid media platform export
+2026-04-01|Mid-Market|Paid Search|EMEA,2026-04-01,Mid-Market,Paid Search,EMEA,22683,921,4256.23,2026-04-02 12:00:00,Synthetic paid media platform export
+2026-04-01|Mid-Market|Paid Search|APAC,2026-04-01,Mid-Market,Paid Search,APAC,17814,695,2708.69,2026-04-02 12:00:00,Synthetic paid media platform export
+2026-04-01|Enterprise|Paid Search|North America,2026-04-01,Enterprise,Paid Search,North America,22178,895,6023.73,2026-04-02 12:00:00,Synthetic paid media platform export
+2026-04-01|Enterprise|Paid Search|EMEA,2026-04-01,Enterprise,Paid Search,EMEA,16218,635,4033.95,2026-04-02 12:00:00,Synthetic paid media platform export
+2026-04-01|Enterprise|Paid Search|APAC,2026-04-01,Enterprise,Paid Search,APAC,14064,543,2785.26,2026-04-02 12:00:00,Synthetic paid media platform export
+2026-04-02|SMB|Paid Search|North America,2026-04-02,SMB,Paid Search,North America,43864,1864,6837.09,2026-04-03 12:00:00,Synthetic paid media platform export
+2026-04-02|SMB|Paid Search|EMEA,2026-04-02,SMB,Paid Search,EMEA,27613,1175,3927.23,2026-04-03 12:00:00,Synthetic paid media platform export
+2026-04-02|SMB|Paid Search|APAC,2026-04-02,SMB,Paid Search,APAC,27738,1125,3089.92,2026-04-03 12:00:00,Synthetic paid media platform export
+2026-04-02|Mid-Market|Paid Search|North America,2026-04-02,Mid-Market,Paid Search,North America,29504,1244,6366.04,2026-04-03 12:00:00,Synthetic paid media platform export
+2026-04-02|Mid-Market|Paid Search|EMEA,2026-04-02,Mid-Market,Paid Search,EMEA,24327,991,4522.82,2026-04-03 12:00:00,Synthetic paid media platform export
+2026-04-02|Mid-Market|Paid Search|APAC,2026-04-02,Mid-Market,Paid Search,APAC,19073,761,2923.26,2026-04-03 12:00:00,Synthetic paid media platform export
+2026-04-02|Enterprise|Paid Search|North America,2026-04-02,Enterprise,Paid Search,North America,20401,809,5414.42,2026-04-03 12:00:00,Synthetic paid media platform export
+2026-04-02|Enterprise|Paid Search|EMEA,2026-04-02,Enterprise,Paid Search,EMEA,15794,612,3853.91,2026-04-03 12:00:00,Synthetic paid media platform export
+2026-04-02|Enterprise|Paid Search|APAC,2026-04-02,Enterprise,Paid Search,APAC,13768,528,2715.82,2026-04-03 12:00:00,Synthetic paid media platform export
+2026-04-03|SMB|Paid Search|North America,2026-04-03,SMB,Paid Search,North America,40702,1778,6693.52,2026-04-04 12:00:00,Synthetic paid media platform export
+2026-04-03|SMB|Paid Search|EMEA,2026-04-03,SMB,Paid Search,EMEA,28182,1188,4036.93,2026-04-04 12:00:00,Synthetic paid media platform export
+2026-04-03|SMB|Paid Search|APAC,2026-04-03,SMB,Paid Search,APAC,25415,1048,2882.51,2026-04-04 12:00:00,Synthetic paid media platform export
+2026-04-03|Mid-Market|Paid Search|North America,2026-04-03,Mid-Market,Paid Search,North America,34238,1456,7211.18,2026-04-04 12:00:00,Synthetic paid media platform export
+2026-04-03|Mid-Market|Paid Search|EMEA,2026-04-03,Mid-Market,Paid Search,EMEA,23238,949,4305.48,2026-04-04 12:00:00,Synthetic paid media platform export
+2026-04-03|Mid-Market|Paid Search|APAC,2026-04-03,Mid-Market,Paid Search,APAC,18192,721,2852.31,2026-04-04 12:00:00,Synthetic paid media platform export
+2026-04-03|Enterprise|Paid Search|North America,2026-04-03,Enterprise,Paid Search,North America,21754,860,5877.88,2026-04-04 12:00:00,Synthetic paid media platform export
+2026-04-03|Enterprise|Paid Search|EMEA,2026-04-03,Enterprise,Paid Search,EMEA,14787,571,3523.79,2026-04-04 12:00:00,Synthetic paid media platform export
+2026-04-03|Enterprise|Paid Search|APAC,2026-04-03,Enterprise,Paid Search,APAC,12467,483,2573.46,2026-04-04 12:00:00,Synthetic paid media platform export
+2026-04-04|SMB|Paid Search|North America,2026-04-04,SMB,Paid Search,North America,28995,1248,4602.02,2026-04-05 12:00:00,Synthetic paid media platform export
+2026-04-04|SMB|Paid Search|EMEA,2026-04-04,SMB,Paid Search,EMEA,22595,944,3212.01,2026-04-05 12:00:00,Synthetic paid media platform export
+2026-04-04|SMB|Paid Search|APAC,2026-04-04,SMB,Paid Search,APAC,19173,799,2264.44,2026-04-05 12:00:00,Synthetic paid media platform export
+2026-04-04|Mid-Market|Paid Search|North America,2026-04-04,Mid-Market,Paid Search,North America,24250,1033,5155.74,2026-04-05 12:00:00,Synthetic paid media platform export
+2026-04-04|Mid-Market|Paid Search|EMEA,2026-04-04,Mid-Market,Paid Search,EMEA,18668,766,3590.65,2026-04-05 12:00:00,Synthetic paid media platform export
+2026-04-04|Mid-Market|Paid Search|APAC,2026-04-04,Mid-Market,Paid Search,APAC,15202,594,2301.84,2026-04-05 12:00:00,Synthetic paid media platform export
+2026-04-04|Enterprise|Paid Search|North America,2026-04-04,Enterprise,Paid Search,North America,15242,609,4137.85,2026-04-05 12:00:00,Synthetic paid media platform export
+2026-04-04|Enterprise|Paid Search|EMEA,2026-04-04,Enterprise,Paid Search,EMEA,13320,528,3229.29,2026-04-05 12:00:00,Synthetic paid media platform export
+2026-04-04|Enterprise|Paid Search|APAC,2026-04-04,Enterprise,Paid Search,APAC,11728,441,2300.55,2026-04-05 12:00:00,Synthetic paid media platform export
+2026-04-05|SMB|Paid Search|North America,2026-04-05,SMB,Paid Search,North America,31475,1344,5006.88,2026-04-06 12:00:00,Synthetic paid media platform export
+2026-04-05|SMB|Paid Search|EMEA,2026-04-05,SMB,Paid Search,EMEA,27000,1132,3847.41,2026-04-06 12:00:00,Synthetic paid media platform export
+2026-04-05|SMB|Paid Search|APAC,2026-04-05,SMB,Paid Search,APAC,17964,736,2103.1,2026-04-06 12:00:00,Synthetic paid media platform export
+2026-04-05|Mid-Market|Paid Search|North America,2026-04-05,Mid-Market,Paid Search,North America,24297,1027,5068.14,2026-04-06 12:00:00,Synthetic paid media platform export
+2026-04-05|Mid-Market|Paid Search|EMEA,2026-04-05,Mid-Market,Paid Search,EMEA,19585,811,3680.74,2026-04-06 12:00:00,Synthetic paid media platform export
+2026-04-05|Mid-Market|Paid Search|APAC,2026-04-05,Mid-Market,Paid Search,APAC,16977,673,2630.48,2026-04-06 12:00:00,Synthetic paid media platform export
+2026-04-05|Enterprise|Paid Search|North America,2026-04-05,Enterprise,Paid Search,North America,14010,558,3725.33,2026-04-06 12:00:00,Synthetic paid media platform export
+2026-04-05|Enterprise|Paid Search|EMEA,2026-04-05,Enterprise,Paid Search,EMEA,13574,541,3368.65,2026-04-06 12:00:00,Synthetic paid media platform export
+2026-04-05|Enterprise|Paid Search|APAC,2026-04-05,Enterprise,Paid Search,APAC,10503,402,2042.1,2026-04-06 12:00:00,Synthetic paid media platform export
+2026-04-06|SMB|Paid Search|North America,2026-04-06,SMB,Paid Search,North America,37199,1606,5811.01,2026-04-07 12:00:00,Synthetic paid media platform export
+2026-04-06|SMB|Paid Search|EMEA,2026-04-06,SMB,Paid Search,EMEA,30572,1283,4299.25,2026-04-07 12:00:00,Synthetic paid media platform export
+2026-04-06|SMB|Paid Search|APAC,2026-04-06,SMB,Paid Search,APAC,27553,1117,3173.49,2026-04-07 12:00:00,Synthetic paid media platform export
+2026-04-06|Mid-Market|Paid Search|North America,2026-04-06,Mid-Market,Paid Search,North America,30982,1303,6656.91,2026-04-07 12:00:00,Synthetic paid media platform export
+2026-04-06|Mid-Market|Paid Search|EMEA,2026-04-06,Mid-Market,Paid Search,EMEA,22268,918,4230.19,2026-04-07 12:00:00,Synthetic paid media platform export
+2026-04-06|Mid-Market|Paid Search|APAC,2026-04-06,Mid-Market,Paid Search,APAC,20386,796,3114.42,2026-04-07 12:00:00,Synthetic paid media platform export
+2026-04-06|Enterprise|Paid Search|North America,2026-04-06,Enterprise,Paid Search,North America,19686,776,5236.42,2026-04-07 12:00:00,Synthetic paid media platform export
+2026-04-06|Enterprise|Paid Search|EMEA,2026-04-06,Enterprise,Paid Search,EMEA,15921,634,3896.66,2026-04-07 12:00:00,Synthetic paid media platform export
+2026-04-06|Enterprise|Paid Search|APAC,2026-04-06,Enterprise,Paid Search,APAC,14256,549,2799.26,2026-04-07 12:00:00,Synthetic paid media platform export
+2026-04-07|SMB|Paid Search|North America,2026-04-07,SMB,Paid Search,North America,39357,1721,6391.09,2026-04-08 12:00:00,Synthetic paid media platform export
+2026-04-07|SMB|Paid Search|EMEA,2026-04-07,SMB,Paid Search,EMEA,32318,1358,4592.56,2026-04-08 12:00:00,Synthetic paid media platform export
+2026-04-07|SMB|Paid Search|APAC,2026-04-07,SMB,Paid Search,APAC,24707,1031,2923.89,2026-04-08 12:00:00,Synthetic paid media platform export
+2026-04-07|Mid-Market|Paid Search|North America,2026-04-07,Mid-Market,Paid Search,North America,33110,1377,6996.06,2026-04-08 12:00:00,Synthetic paid media platform export
+2026-04-07|Mid-Market|Paid Search|EMEA,2026-04-07,Mid-Market,Paid Search,EMEA,22544,913,4224.18,2026-04-08 12:00:00,Synthetic paid media platform export
+2026-04-07|Mid-Market|Paid Search|APAC,2026-04-07,Mid-Market,Paid Search,APAC,23603,922,3563.59,2026-04-08 12:00:00,Synthetic paid media platform export
+2026-04-07|Enterprise|Paid Search|North America,2026-04-07,Enterprise,Paid Search,North America,20352,806,5615.42,2026-04-08 12:00:00,Synthetic paid media platform export
+2026-04-07|Enterprise|Paid Search|EMEA,2026-04-07,Enterprise,Paid Search,EMEA,18789,742,4680.65,2026-04-08 12:00:00,Synthetic paid media platform export
+2026-04-07|Enterprise|Paid Search|APAC,2026-04-07,Enterprise,Paid Search,APAC,14019,527,2762.3,2026-04-08 12:00:00,Synthetic paid media platform export
+2026-04-08|SMB|Paid Search|North America,2026-04-08,SMB,Paid Search,North America,39960,1714,6225.88,2026-04-09 12:00:00,Synthetic paid media platform export
+2026-04-08|SMB|Paid Search|EMEA,2026-04-08,SMB,Paid Search,EMEA,33464,1436,4775.85,2026-04-09 12:00:00,Synthetic paid media platform export
+2026-04-08|SMB|Paid Search|APAC,2026-04-08,SMB,Paid Search,APAC,24442,995,2758.11,2026-04-09 12:00:00,Synthetic paid media platform export
+2026-04-08|Mid-Market|Paid Search|North America,2026-04-08,Mid-Market,Paid Search,North America,32356,1330,6827,2026-04-09 12:00:00,Synthetic paid media platform export
+2026-04-08|Mid-Market|Paid Search|EMEA,2026-04-08,Mid-Market,Paid Search,EMEA,21494,890,4137.9,2026-04-09 12:00:00,Synthetic paid media platform export
+2026-04-08|Mid-Market|Paid Search|APAC,2026-04-08,Mid-Market,Paid Search,APAC,23419,916,3504.12,2026-04-09 12:00:00,Synthetic paid media platform export
+2026-04-08|Enterprise|Paid Search|North America,2026-04-08,Enterprise,Paid Search,North America,18493,735,4997.4,2026-04-09 12:00:00,Synthetic paid media platform export
+2026-04-08|Enterprise|Paid Search|EMEA,2026-04-08,Enterprise,Paid Search,EMEA,15611,617,3857.19,2026-04-09 12:00:00,Synthetic paid media platform export
+2026-04-08|Enterprise|Paid Search|APAC,2026-04-08,Enterprise,Paid Search,APAC,12822,492,2503.7,2026-04-09 12:00:00,Synthetic paid media platform export
+2026-04-09|SMB|Paid Search|North America,2026-04-09,SMB,Paid Search,North America,42936,1860,6963.71,2026-04-10 12:00:00,Synthetic paid media platform export
+2026-04-09|SMB|Paid Search|EMEA,2026-04-09,SMB,Paid Search,EMEA,32754,1358,4517.95,2026-04-10 12:00:00,Synthetic paid media platform export
+2026-04-09|SMB|Paid Search|APAC,2026-04-09,SMB,Paid Search,APAC,25002,1023,2826.78,2026-04-10 12:00:00,Synthetic paid media platform export
+2026-04-09|Mid-Market|Paid Search|North America,2026-04-09,Mid-Market,Paid Search,North America,30803,1265,6420.69,2026-04-10 12:00:00,Synthetic paid media platform export
+2026-04-09|Mid-Market|Paid Search|EMEA,2026-04-09,Mid-Market,Paid Search,EMEA,20710,835,3841.14,2026-04-10 12:00:00,Synthetic paid media platform export
+2026-04-09|Mid-Market|Paid Search|APAC,2026-04-09,Mid-Market,Paid Search,APAC,19118,768,3039.57,2026-04-10 12:00:00,Synthetic paid media platform export
+2026-04-09|Enterprise|Paid Search|North America,2026-04-09,Enterprise,Paid Search,North America,20505,825,5741.95,2026-04-10 12:00:00,Synthetic paid media platform export
+2026-04-09|Enterprise|Paid Search|EMEA,2026-04-09,Enterprise,Paid Search,EMEA,17662,689,4284.91,2026-04-10 12:00:00,Synthetic paid media platform export
+2026-04-09|Enterprise|Paid Search|APAC,2026-04-09,Enterprise,Paid Search,APAC,13580,522,2726.33,2026-04-10 12:00:00,Synthetic paid media platform export
+2026-04-10|SMB|Paid Search|North America,2026-04-10,SMB,Paid Search,North America,39583,1723,6229.76,2026-04-11 12:00:00,Synthetic paid media platform export
+2026-04-10|SMB|Paid Search|EMEA,2026-04-10,SMB,Paid Search,EMEA,28845,1228,4113.77,2026-04-11 12:00:00,Synthetic paid media platform export
+2026-04-10|SMB|Paid Search|APAC,2026-04-10,SMB,Paid Search,APAC,23168,967,2782.59,2026-04-11 12:00:00,Synthetic paid media platform export
+2026-04-10|Mid-Market|Paid Search|North America,2026-04-10,Mid-Market,Paid Search,North America,31024,1307,6694.82,2026-04-11 12:00:00,Synthetic paid media platform export
+2026-04-10|Mid-Market|Paid Search|EMEA,2026-04-10,Mid-Market,Paid Search,EMEA,25740,1047,4851.54,2026-04-11 12:00:00,Synthetic paid media platform export
+2026-04-10|Mid-Market|Paid Search|APAC,2026-04-10,Mid-Market,Paid Search,APAC,20423,828,3145.5,2026-04-11 12:00:00,Synthetic paid media platform export
+2026-04-10|Enterprise|Paid Search|North America,2026-04-10,Enterprise,Paid Search,North America,21201,858,5911.88,2026-04-11 12:00:00,Synthetic paid media platform export
+2026-04-10|Enterprise|Paid Search|EMEA,2026-04-10,Enterprise,Paid Search,EMEA,15189,597,3788.29,2026-04-11 12:00:00,Synthetic paid media platform export
+2026-04-10|Enterprise|Paid Search|APAC,2026-04-10,Enterprise,Paid Search,APAC,13765,519,2696.81,2026-04-11 12:00:00,Synthetic paid media platform export
+2026-04-11|SMB|Paid Search|North America,2026-04-11,SMB,Paid Search,North America,32165,1360,5112.99,2026-04-12 12:00:00,Synthetic paid media platform export
+2026-04-11|SMB|Paid Search|EMEA,2026-04-11,SMB,Paid Search,EMEA,22049,916,3066.54,2026-04-12 12:00:00,Synthetic paid media platform export
+2026-04-11|SMB|Paid Search|APAC,2026-04-11,SMB,Paid Search,APAC,19048,774,2143.03,2026-04-12 12:00:00,Synthetic paid media platform export
+2026-04-11|Mid-Market|Paid Search|North America,2026-04-11,Mid-Market,Paid Search,North America,23770,991,4953.85,2026-04-12 12:00:00,Synthetic paid media platform export
+2026-04-11|Mid-Market|Paid Search|EMEA,2026-04-11,Mid-Market,Paid Search,EMEA,18677,770,3515.39,2026-04-12 12:00:00,Synthetic paid media platform export
+2026-04-11|Mid-Market|Paid Search|APAC,2026-04-11,Mid-Market,Paid Search,APAC,15605,624,2400.36,2026-04-12 12:00:00,Synthetic paid media platform export
+2026-04-11|Enterprise|Paid Search|North America,2026-04-11,Enterprise,Paid Search,North America,15137,613,4171.68,2026-04-12 12:00:00,Synthetic paid media platform export
+2026-04-11|Enterprise|Paid Search|EMEA,2026-04-11,Enterprise,Paid Search,EMEA,11582,450,2788.24,2026-04-12 12:00:00,Synthetic paid media platform export
+2026-04-11|Enterprise|Paid Search|APAC,2026-04-11,Enterprise,Paid Search,APAC,11805,455,2378.44,2026-04-12 12:00:00,Synthetic paid media platform export
+2026-04-12|SMB|Paid Search|North America,2026-04-12,SMB,Paid Search,North America,33380,1427,5197.47,2026-04-13 12:00:00,Synthetic paid media platform export
+2026-04-12|SMB|Paid Search|EMEA,2026-04-12,SMB,Paid Search,EMEA,25993,1088,3677.37,2026-04-13 12:00:00,Synthetic paid media platform export
+2026-04-12|SMB|Paid Search|APAC,2026-04-12,SMB,Paid Search,APAC,17759,727,2034.36,2026-04-13 12:00:00,Synthetic paid media platform export
+2026-04-12|Mid-Market|Paid Search|North America,2026-04-12,Mid-Market,Paid Search,North America,21470,891,4540.91,2026-04-13 12:00:00,Synthetic paid media platform export
+2026-04-12|Mid-Market|Paid Search|EMEA,2026-04-12,Mid-Market,Paid Search,EMEA,16913,705,3230.3,2026-04-13 12:00:00,Synthetic paid media platform export
+2026-04-12|Mid-Market|Paid Search|APAC,2026-04-12,Mid-Market,Paid Search,APAC,16284,656,2548.13,2026-04-13 12:00:00,Synthetic paid media platform export
+2026-04-12|Enterprise|Paid Search|North America,2026-04-12,Enterprise,Paid Search,North America,16147,651,4410.73,2026-04-13 12:00:00,Synthetic paid media platform export
+2026-04-12|Enterprise|Paid Search|EMEA,2026-04-12,Enterprise,Paid Search,EMEA,11038,433,2666.75,2026-04-13 12:00:00,Synthetic paid media platform export
+2026-04-12|Enterprise|Paid Search|APAC,2026-04-12,Enterprise,Paid Search,APAC,9825,374,1933.29,2026-04-13 12:00:00,Synthetic paid media platform export
+2026-04-13|SMB|Paid Search|North America,2026-04-13,SMB,Paid Search,North America,37572,1637,6064.69,2026-04-14 12:00:00,Synthetic paid media platform export
+2026-04-13|SMB|Paid Search|EMEA,2026-04-13,SMB,Paid Search,EMEA,26251,1098,3761.21,2026-04-14 12:00:00,Synthetic paid media platform export
+2026-04-13|SMB|Paid Search|APAC,2026-04-13,SMB,Paid Search,APAC,30831,1238,3542.24,2026-04-14 12:00:00,Synthetic paid media platform export
+2026-04-13|Mid-Market|Paid Search|North America,2026-04-13,Mid-Market,Paid Search,North America,28028,1181,6042.97,2026-04-14 12:00:00,Synthetic paid media platform export
+2026-04-13|Mid-Market|Paid Search|EMEA,2026-04-13,Mid-Market,Paid Search,EMEA,24869,1015,4659.86,2026-04-14 12:00:00,Synthetic paid media platform export
+2026-04-13|Mid-Market|Paid Search|APAC,2026-04-13,Mid-Market,Paid Search,APAC,21241,852,3271.94,2026-04-14 12:00:00,Synthetic paid media platform export
+2026-04-13|Enterprise|Paid Search|North America,2026-04-13,Enterprise,Paid Search,North America,20618,827,5736.93,2026-04-14 12:00:00,Synthetic paid media platform export
+2026-04-13|Enterprise|Paid Search|EMEA,2026-04-13,Enterprise,Paid Search,EMEA,15638,618,3885.41,2026-04-14 12:00:00,Synthetic paid media platform export
+2026-04-13|Enterprise|Paid Search|APAC,2026-04-13,Enterprise,Paid Search,APAC,13914,531,2710.89,2026-04-14 12:00:00,Synthetic paid media platform export
+2026-04-14|SMB|Paid Search|North America,2026-04-14,SMB,Paid Search,North America,43334,1902,7054.46,2026-04-15 12:00:00,Synthetic paid media platform export
+2026-04-14|SMB|Paid Search|EMEA,2026-04-14,SMB,Paid Search,EMEA,35105,1510,4975.97,2026-04-15 12:00:00,Synthetic paid media platform export
+2026-04-14|SMB|Paid Search|APAC,2026-04-14,SMB,Paid Search,APAC,28669,1153,3189.95,2026-04-15 12:00:00,Synthetic paid media platform export
+2026-04-14|Mid-Market|Paid Search|North America,2026-04-14,Mid-Market,Paid Search,North America,32667,1356,6694.08,2026-04-15 12:00:00,Synthetic paid media platform export
+2026-04-14|Mid-Market|Paid Search|EMEA,2026-04-14,Mid-Market,Paid Search,EMEA,26431,1075,5023.85,2026-04-15 12:00:00,Synthetic paid media platform export
+2026-04-14|Mid-Market|Paid Search|APAC,2026-04-14,Mid-Market,Paid Search,APAC,22763,907,3587.39,2026-04-15 12:00:00,Synthetic paid media platform export
+2026-04-14|Enterprise|Paid Search|North America,2026-04-14,Enterprise,Paid Search,North America,24745,1006,6984.32,2026-04-15 12:00:00,Synthetic paid media platform export
+2026-04-14|Enterprise|Paid Search|EMEA,2026-04-14,Enterprise,Paid Search,EMEA,15806,613,3773.06,2026-04-15 12:00:00,Synthetic paid media platform export
+2026-04-14|Enterprise|Paid Search|APAC,2026-04-14,Enterprise,Paid Search,APAC,13845,532,2787.22,2026-04-15 12:00:00,Synthetic paid media platform export
+2026-04-15|SMB|Paid Search|North America,2026-04-15,SMB,Paid Search,North America,41865,1818,6744.53,2026-04-16 12:00:00,Synthetic paid media platform export
+2026-04-15|SMB|Paid Search|EMEA,2026-04-15,SMB,Paid Search,EMEA,28754,1210,4141.35,2026-04-16 12:00:00,Synthetic paid media platform export
+2026-04-15|SMB|Paid Search|APAC,2026-04-15,SMB,Paid Search,APAC,28045,1168,3277.24,2026-04-16 12:00:00,Synthetic paid media platform export
+2026-04-15|Mid-Market|Paid Search|North America,2026-04-15,Mid-Market,Paid Search,North America,29638,1225,6316.21,2026-04-16 12:00:00,Synthetic paid media platform export
+2026-04-15|Mid-Market|Paid Search|EMEA,2026-04-15,Mid-Market,Paid Search,EMEA,24446,1015,4594.51,2026-04-16 12:00:00,Synthetic paid media platform export
+2026-04-15|Mid-Market|Paid Search|APAC,2026-04-15,Mid-Market,Paid Search,APAC,19524,791,3084.67,2026-04-16 12:00:00,Synthetic paid media platform export
+2026-04-15|Enterprise|Paid Search|North America,2026-04-15,Enterprise,Paid Search,North America,20125,824,5539.4,2026-04-16 12:00:00,Synthetic paid media platform export
+2026-04-15|Enterprise|Paid Search|EMEA,2026-04-15,Enterprise,Paid Search,EMEA,15414,614,3795.03,2026-04-16 12:00:00,Synthetic paid media platform export
+2026-04-15|Enterprise|Paid Search|APAC,2026-04-15,Enterprise,Paid Search,APAC,13586,523,2656.36,2026-04-16 12:00:00,Synthetic paid media platform export
+2026-04-16|SMB|Paid Search|North America,2026-04-16,SMB,Paid Search,North America,39439,1681,6217.99,2026-04-17 12:00:00,Synthetic paid media platform export
+2026-04-16|SMB|Paid Search|EMEA,2026-04-16,SMB,Paid Search,EMEA,33400,1428,4793.99,2026-04-17 12:00:00,Synthetic paid media platform export
+2026-04-16|SMB|Paid Search|APAC,2026-04-16,SMB,Paid Search,APAC,23703,965,2649.93,2026-04-17 12:00:00,Synthetic paid media platform export
+2026-04-16|Mid-Market|Paid Search|North America,2026-04-16,Mid-Market,Paid Search,North America,29270,1229,6110.07,2026-04-17 12:00:00,Synthetic paid media platform export
+2026-04-16|Mid-Market|Paid Search|EMEA,2026-04-16,Mid-Market,Paid Search,EMEA,21301,872,4009.32,2026-04-17 12:00:00,Synthetic paid media platform export
+2026-04-16|Mid-Market|Paid Search|APAC,2026-04-16,Mid-Market,Paid Search,APAC,21521,865,3417.11,2026-04-17 12:00:00,Synthetic paid media platform export
+2026-04-16|Enterprise|Paid Search|North America,2026-04-16,Enterprise,Paid Search,North America,20646,843,5883.37,2026-04-17 12:00:00,Synthetic paid media platform export
+2026-04-16|Enterprise|Paid Search|EMEA,2026-04-16,Enterprise,Paid Search,EMEA,19393,754,4575.85,2026-04-17 12:00:00,Synthetic paid media platform export
+2026-04-16|Enterprise|Paid Search|APAC,2026-04-16,Enterprise,Paid Search,APAC,13590,515,2642.13,2026-04-17 12:00:00,Synthetic paid media platform export
+2026-04-17|SMB|Paid Search|North America,2026-04-17,SMB,Paid Search,North America,37843,1625,5881.98,2026-04-18 12:00:00,Synthetic paid media platform export
+2026-04-17|SMB|Paid Search|EMEA,2026-04-17,SMB,Paid Search,EMEA,27846,1181,4035.34,2026-04-18 12:00:00,Synthetic paid media platform export
+2026-04-17|SMB|Paid Search|APAC,2026-04-17,SMB,Paid Search,APAC,27807,1121,3091.54,2026-04-18 12:00:00,Synthetic paid media platform export
+2026-04-17|Mid-Market|Paid Search|North America,2026-04-17,Mid-Market,Paid Search,North America,32319,1372,6886.11,2026-04-18 12:00:00,Synthetic paid media platform export
+2026-04-17|Mid-Market|Paid Search|EMEA,2026-04-17,Mid-Market,Paid Search,EMEA,22150,898,4158.83,2026-04-18 12:00:00,Synthetic paid media platform export
+2026-04-17|Mid-Market|Paid Search|APAC,2026-04-17,Mid-Market,Paid Search,APAC,22203,880,3437.18,2026-04-18 12:00:00,Synthetic paid media platform export
+2026-04-17|Enterprise|Paid Search|North America,2026-04-17,Enterprise,Paid Search,North America,21889,866,6036.89,2026-04-18 12:00:00,Synthetic paid media platform export
+2026-04-17|Enterprise|Paid Search|EMEA,2026-04-17,Enterprise,Paid Search,EMEA,16024,619,3898.42,2026-04-18 12:00:00,Synthetic paid media platform export
+2026-04-17|Enterprise|Paid Search|APAC,2026-04-17,Enterprise,Paid Search,APAC,14075,548,2879.96,2026-04-18 12:00:00,Synthetic paid media platform export
+2026-04-18|SMB|Paid Search|North America,2026-04-18,SMB,Paid Search,North America,28861,1236,4487.99,2026-04-19 12:00:00,Synthetic paid media platform export
+2026-04-18|SMB|Paid Search|EMEA,2026-04-18,SMB,Paid Search,EMEA,23618,979,3330.77,2026-04-19 12:00:00,Synthetic paid media platform export
+2026-04-18|SMB|Paid Search|APAC,2026-04-18,SMB,Paid Search,APAC,18492,745,2097.72,2026-04-19 12:00:00,Synthetic paid media platform export
+2026-04-18|Mid-Market|Paid Search|North America,2026-04-18,Mid-Market,Paid Search,North America,24955,1038,5296.44,2026-04-19 12:00:00,Synthetic paid media platform export
+2026-04-18|Mid-Market|Paid Search|EMEA,2026-04-18,Mid-Market,Paid Search,EMEA,19055,768,3601.82,2026-04-19 12:00:00,Synthetic paid media platform export
+2026-04-18|Mid-Market|Paid Search|APAC,2026-04-18,Mid-Market,Paid Search,APAC,16620,657,2592.77,2026-04-19 12:00:00,Synthetic paid media platform export
+2026-04-18|Enterprise|Paid Search|North America,2026-04-18,Enterprise,Paid Search,North America,17237,699,4728.77,2026-04-19 12:00:00,Synthetic paid media platform export
+2026-04-18|Enterprise|Paid Search|EMEA,2026-04-18,Enterprise,Paid Search,EMEA,13347,534,3284.15,2026-04-19 12:00:00,Synthetic paid media platform export
+2026-04-18|Enterprise|Paid Search|APAC,2026-04-18,Enterprise,Paid Search,APAC,11792,459,2398.42,2026-04-19 12:00:00,Synthetic paid media platform export
+2026-04-19|SMB|Paid Search|North America,2026-04-19,SMB,Paid Search,North America,32723,1391,5006.18,2026-04-20 12:00:00,Synthetic paid media platform export
+2026-04-19|SMB|Paid Search|EMEA,2026-04-19,SMB,Paid Search,EMEA,22586,965,3305.18,2026-04-20 12:00:00,Synthetic paid media platform export
+2026-04-19|SMB|Paid Search|APAC,2026-04-19,SMB,Paid Search,APAC,22225,906,2581.03,2026-04-20 12:00:00,Synthetic paid media platform export
+2026-04-19|Mid-Market|Paid Search|North America,2026-04-19,Mid-Market,Paid Search,North America,24503,1028,5188.56,2026-04-20 12:00:00,Synthetic paid media platform export
+2026-04-19|Mid-Market|Paid Search|EMEA,2026-04-19,Mid-Market,Paid Search,EMEA,18727,755,3484.13,2026-04-20 12:00:00,Synthetic paid media platform export
+2026-04-19|Mid-Market|Paid Search|APAC,2026-04-19,Mid-Market,Paid Search,APAC,14455,579,2222.62,2026-04-20 12:00:00,Synthetic paid media platform export
+2026-04-19|Enterprise|Paid Search|North America,2026-04-19,Enterprise,Paid Search,North America,17714,714,4804.16,2026-04-20 12:00:00,Synthetic paid media platform export
+2026-04-19|Enterprise|Paid Search|EMEA,2026-04-19,Enterprise,Paid Search,EMEA,12050,480,3000.17,2026-04-20 12:00:00,Synthetic paid media platform export
+2026-04-19|Enterprise|Paid Search|APAC,2026-04-19,Enterprise,Paid Search,APAC,10283,393,2088.88,2026-04-20 12:00:00,Synthetic paid media platform export
+2026-04-20|SMB|Paid Search|North America,2026-04-20,SMB,Paid Search,North America,39004,1711,6180.34,2026-04-21 12:00:00,Synthetic paid media platform export
+2026-04-20|SMB|Paid Search|EMEA,2026-04-20,SMB,Paid Search,EMEA,29350,1240,4085.53,2026-04-21 12:00:00,Synthetic paid media platform export
+2026-04-20|SMB|Paid Search|APAC,2026-04-20,SMB,Paid Search,APAC,32257,1297,3594.18,2026-04-21 12:00:00,Synthetic paid media platform export
+2026-04-20|Mid-Market|Paid Search|North America,2026-04-20,Mid-Market,Paid Search,North America,36327,1490,7402.39,2026-04-21 12:00:00,Synthetic paid media platform export
+2026-04-20|Mid-Market|Paid Search|EMEA,2026-04-20,Mid-Market,Paid Search,EMEA,23113,939,4332.7,2026-04-21 12:00:00,Synthetic paid media platform export
+2026-04-20|Mid-Market|Paid Search|APAC,2026-04-20,Mid-Market,Paid Search,APAC,20251,803,3156.35,2026-04-21 12:00:00,Synthetic paid media platform export
+2026-04-20|Enterprise|Paid Search|North America,2026-04-20,Enterprise,Paid Search,North America,20147,793,5511.49,2026-04-21 12:00:00,Synthetic paid media platform export
+2026-04-20|Enterprise|Paid Search|EMEA,2026-04-20,Enterprise,Paid Search,EMEA,15751,627,3827.38,2026-04-21 12:00:00,Synthetic paid media platform export
+2026-04-20|Enterprise|Paid Search|APAC,2026-04-20,Enterprise,Paid Search,APAC,13363,520,2751.24,2026-04-21 12:00:00,Synthetic paid media platform export
+2026-04-21|SMB|Paid Search|North America,2026-04-21,SMB,Paid Search,North America,43998,1932,7230.41,2026-04-22 12:00:00,Synthetic paid media platform export
+2026-04-21|SMB|Paid Search|EMEA,2026-04-21,SMB,Paid Search,EMEA,31916,1338,4534.4,2026-04-22 12:00:00,Synthetic paid media platform export
+2026-04-21|SMB|Paid Search|APAC,2026-04-21,SMB,Paid Search,APAC,29275,1217,3448.18,2026-04-22 12:00:00,Synthetic paid media platform export
+2026-04-21|Mid-Market|Paid Search|North America,2026-04-21,Mid-Market,Paid Search,North America,37024,1554,7687.98,2026-04-22 12:00:00,Synthetic paid media platform export
+2026-04-21|Mid-Market|Paid Search|EMEA,2026-04-21,Mid-Market,Paid Search,EMEA,26320,1062,4926.25,2026-04-22 12:00:00,Synthetic paid media platform export
+2026-04-21|Mid-Market|Paid Search|APAC,2026-04-21,Mid-Market,Paid Search,APAC,18162,729,2778.84,2026-04-22 12:00:00,Synthetic paid media platform export
+2026-04-21|Enterprise|Paid Search|North America,2026-04-21,Enterprise,Paid Search,North America,23047,907,6174.18,2026-04-22 12:00:00,Synthetic paid media platform export
+2026-04-21|Enterprise|Paid Search|EMEA,2026-04-21,Enterprise,Paid Search,EMEA,14323,574,3593.24,2026-04-22 12:00:00,Synthetic paid media platform export
+2026-04-21|Enterprise|Paid Search|APAC,2026-04-21,Enterprise,Paid Search,APAC,13281,516,2682.23,2026-04-22 12:00:00,Synthetic paid media platform export
+2026-04-22|SMB|Paid Search|North America,2026-04-22,SMB,Paid Search,North America,43130,1881,7042.06,2026-04-23 12:00:00,Synthetic paid media platform export
+2026-04-22|SMB|Paid Search|EMEA,2026-04-22,SMB,Paid Search,EMEA,32462,1367,4689.66,2026-04-23 12:00:00,Synthetic paid media platform export
+2026-04-22|SMB|Paid Search|APAC,2026-04-22,SMB,Paid Search,APAC,24239,993,2736.17,2026-04-23 12:00:00,Synthetic paid media platform export
+2026-04-22|Mid-Market|Paid Search|North America,2026-04-22,Mid-Market,Paid Search,North America,30866,1285,6621.42,2026-04-23 12:00:00,Synthetic paid media platform export
+2026-04-22|Mid-Market|Paid Search|EMEA,2026-04-22,Mid-Market,Paid Search,EMEA,25402,1041,4747.88,2026-04-23 12:00:00,Synthetic paid media platform export
+2026-04-22|Mid-Market|Paid Search|APAC,2026-04-22,Mid-Market,Paid Search,APAC,21749,880,3424.01,2026-04-23 12:00:00,Synthetic paid media platform export
+2026-04-22|Enterprise|Paid Search|North America,2026-04-22,Enterprise,Paid Search,North America,19350,789,5424.82,2026-04-23 12:00:00,Synthetic paid media platform export
+2026-04-22|Enterprise|Paid Search|EMEA,2026-04-22,Enterprise,Paid Search,EMEA,15407,612,3859.83,2026-04-23 12:00:00,Synthetic paid media platform export
+2026-04-22|Enterprise|Paid Search|APAC,2026-04-22,Enterprise,Paid Search,APAC,11575,441,2255.19,2026-04-23 12:00:00,Synthetic paid media platform export
+2026-04-23|SMB|Paid Search|North America,2026-04-23,SMB,Paid Search,North America,40107,1708,6218.59,2026-04-24 12:00:00,Synthetic paid media platform export
+2026-04-23|SMB|Paid Search|EMEA,2026-04-23,SMB,Paid Search,EMEA,29669,1268,4149.61,2026-04-24 12:00:00,Synthetic paid media platform export
+2026-04-23|SMB|Paid Search|APAC,2026-04-23,SMB,Paid Search,APAC,27704,1138,3185.19,2026-04-24 12:00:00,Synthetic paid media platform export
+2026-04-23|Mid-Market|Paid Search|North America,2026-04-23,Mid-Market,Paid Search,North America,34657,1444,7482.29,2026-04-24 12:00:00,Synthetic paid media platform export
+2026-04-23|Mid-Market|Paid Search|EMEA,2026-04-23,Mid-Market,Paid Search,EMEA,25091,1017,4697.53,2026-04-24 12:00:00,Synthetic paid media platform export
+2026-04-23|Mid-Market|Paid Search|APAC,2026-04-23,Mid-Market,Paid Search,APAC,20177,809,3135.74,2026-04-24 12:00:00,Synthetic paid media platform export
+2026-04-23|Enterprise|Paid Search|North America,2026-04-23,Enterprise,Paid Search,North America,23739,957,6379.39,2026-04-24 12:00:00,Synthetic paid media platform export
+2026-04-23|Enterprise|Paid Search|EMEA,2026-04-23,Enterprise,Paid Search,EMEA,16102,639,3991.65,2026-04-24 12:00:00,Synthetic paid media platform export
+2026-04-23|Enterprise|Paid Search|APAC,2026-04-23,Enterprise,Paid Search,APAC,13474,508,2591.06,2026-04-24 12:00:00,Synthetic paid media platform export
+2026-04-24|SMB|Paid Search|North America,2026-04-24,SMB,Paid Search,North America,43588,1856,6785.95,2026-04-25 12:00:00,Synthetic paid media platform export
+2026-04-24|SMB|Paid Search|EMEA,2026-04-24,SMB,Paid Search,EMEA,31217,1330,4353.44,2026-04-25 12:00:00,Synthetic paid media platform export
+2026-04-24|SMB|Paid Search|APAC,2026-04-24,SMB,Paid Search,APAC,28867,1169,3346.1,2026-04-25 12:00:00,Synthetic paid media platform export
+2026-04-24|Mid-Market|Paid Search|North America,2026-04-24,Mid-Market,Paid Search,North America,29492,1255,6429.43,2026-04-25 12:00:00,Synthetic paid media platform export
+2026-04-24|Mid-Market|Paid Search|EMEA,2026-04-24,Mid-Market,Paid Search,EMEA,22542,930,4171.64,2026-04-25 12:00:00,Synthetic paid media platform export
+2026-04-24|Mid-Market|Paid Search|APAC,2026-04-24,Mid-Market,Paid Search,APAC,21607,864,3301.52,2026-04-25 12:00:00,Synthetic paid media platform export
+2026-04-24|Enterprise|Paid Search|North America,2026-04-24,Enterprise,Paid Search,North America,21652,853,5722.9,2026-04-25 12:00:00,Synthetic paid media platform export
+2026-04-24|Enterprise|Paid Search|EMEA,2026-04-24,Enterprise,Paid Search,EMEA,16783,670,4154.6,2026-04-25 12:00:00,Synthetic paid media platform export
+2026-04-24|Enterprise|Paid Search|APAC,2026-04-24,Enterprise,Paid Search,APAC,13300,516,2742.69,2026-04-25 12:00:00,Synthetic paid media platform export
+2026-04-25|SMB|Paid Search|North America,2026-04-25,SMB,Paid Search,North America,30848,1321,4782.52,2026-04-26 12:00:00,Synthetic paid media platform export
+2026-04-25|SMB|Paid Search|EMEA,2026-04-25,SMB,Paid Search,EMEA,22285,932,3153.39,2026-04-26 12:00:00,Synthetic paid media platform export
+2026-04-25|SMB|Paid Search|APAC,2026-04-25,SMB,Paid Search,APAC,21528,887,2529.08,2026-04-26 12:00:00,Synthetic paid media platform export
+2026-04-25|Mid-Market|Paid Search|North America,2026-04-25,Mid-Market,Paid Search,North America,23916,983,4892.94,2026-04-26 12:00:00,Synthetic paid media platform export
+2026-04-25|Mid-Market|Paid Search|EMEA,2026-04-25,Mid-Market,Paid Search,EMEA,18478,761,3487.39,2026-04-26 12:00:00,Synthetic paid media platform export
+2026-04-25|Mid-Market|Paid Search|APAC,2026-04-25,Mid-Market,Paid Search,APAC,18788,741,2833.56,2026-04-26 12:00:00,Synthetic paid media platform export
+2026-04-25|Enterprise|Paid Search|North America,2026-04-25,Enterprise,Paid Search,North America,16393,649,4442.36,2026-04-26 12:00:00,Synthetic paid media platform export
+2026-04-25|Enterprise|Paid Search|EMEA,2026-04-25,Enterprise,Paid Search,EMEA,12669,497,3087.25,2026-04-26 12:00:00,Synthetic paid media platform export
+2026-04-25|Enterprise|Paid Search|APAC,2026-04-25,Enterprise,Paid Search,APAC,11102,422,2250.6,2026-04-26 12:00:00,Synthetic paid media platform export
+2026-04-26|SMB|Paid Search|North America,2026-04-26,SMB,Paid Search,North America,32044,1385,5120.39,2026-04-27 12:00:00,Synthetic paid media platform export
+2026-04-26|SMB|Paid Search|EMEA,2026-04-26,SMB,Paid Search,EMEA,25162,1071,3561.5,2026-04-27 12:00:00,Synthetic paid media platform export
+2026-04-26|SMB|Paid Search|APAC,2026-04-26,SMB,Paid Search,APAC,20889,868,2418.42,2026-04-27 12:00:00,Synthetic paid media platform export
+2026-04-26|Mid-Market|Paid Search|North America,2026-04-26,Mid-Market,Paid Search,North America,23260,986,5072.98,2026-04-27 12:00:00,Synthetic paid media platform export
+2026-04-26|Mid-Market|Paid Search|EMEA,2026-04-26,Mid-Market,Paid Search,EMEA,18452,757,3476.12,2026-04-27 12:00:00,Synthetic paid media platform export
+2026-04-26|Mid-Market|Paid Search|APAC,2026-04-26,Mid-Market,Paid Search,APAC,16769,658,2574.82,2026-04-27 12:00:00,Synthetic paid media platform export
+2026-04-26|Enterprise|Paid Search|North America,2026-04-26,Enterprise,Paid Search,North America,14756,591,4118.32,2026-04-27 12:00:00,Synthetic paid media platform export
+2026-04-26|Enterprise|Paid Search|EMEA,2026-04-26,Enterprise,Paid Search,EMEA,12151,481,2929.13,2026-04-27 12:00:00,Synthetic paid media platform export
+2026-04-26|Enterprise|Paid Search|APAC,2026-04-26,Enterprise,Paid Search,APAC,10718,408,2090.91,2026-04-27 12:00:00,Synthetic paid media platform export
+2026-04-27|SMB|Paid Search|North America,2026-04-27,SMB,Paid Search,North America,44524,1950,7189.33,2026-04-28 12:00:00,Synthetic paid media platform export
+2026-04-27|SMB|Paid Search|EMEA,2026-04-27,SMB,Paid Search,EMEA,35877,1506,5119.19,2026-04-28 12:00:00,Synthetic paid media platform export
+2026-04-27|SMB|Paid Search|APAC,2026-04-27,SMB,Paid Search,APAC,27380,1127,3201.61,2026-04-28 12:00:00,Synthetic paid media platform export
+2026-04-27|Mid-Market|Paid Search|North America,2026-04-27,Mid-Market,Paid Search,North America,33400,1384,7011.8,2026-04-28 12:00:00,Synthetic paid media platform export
+2026-04-27|Mid-Market|Paid Search|EMEA,2026-04-27,Mid-Market,Paid Search,EMEA,23798,966,4503.19,2026-04-28 12:00:00,Synthetic paid media platform export
+2026-04-27|Mid-Market|Paid Search|APAC,2026-04-27,Mid-Market,Paid Search,APAC,20641,835,3168.36,2026-04-28 12:00:00,Synthetic paid media platform export
+2026-04-27|Enterprise|Paid Search|North America,2026-04-27,Enterprise,Paid Search,North America,24167,986,6865.21,2026-04-28 12:00:00,Synthetic paid media platform export
+2026-04-27|Enterprise|Paid Search|EMEA,2026-04-27,Enterprise,Paid Search,EMEA,16777,672,4240.91,2026-04-28 12:00:00,Synthetic paid media platform export
+2026-04-27|Enterprise|Paid Search|APAC,2026-04-27,Enterprise,Paid Search,APAC,13212,508,2641.62,2026-04-28 12:00:00,Synthetic paid media platform export
+2026-04-28|SMB|Paid Search|North America,2026-04-28,SMB,Paid Search,North America,44131,1911,7177.49,2026-04-29 12:00:00,Synthetic paid media platform export
+2026-04-28|SMB|Paid Search|EMEA,2026-04-28,SMB,Paid Search,EMEA,28013,1181,3983.51,2026-04-29 12:00:00,Synthetic paid media platform export
+2026-04-28|SMB|Paid Search|APAC,2026-04-28,SMB,Paid Search,APAC,29860,1238,3503.28,2026-04-29 12:00:00,Synthetic paid media platform export
+2026-04-28|Mid-Market|Paid Search|North America,2026-04-28,Mid-Market,Paid Search,North America,36587,1502,7769.89,2026-04-29 12:00:00,Synthetic paid media platform export
+2026-04-28|Mid-Market|Paid Search|EMEA,2026-04-28,Mid-Market,Paid Search,EMEA,22780,925,4212.16,2026-04-29 12:00:00,Synthetic paid media platform export
+2026-04-28|Mid-Market|Paid Search|APAC,2026-04-28,Mid-Market,Paid Search,APAC,22551,904,3534.9,2026-04-29 12:00:00,Synthetic paid media platform export
+2026-04-28|Enterprise|Paid Search|North America,2026-04-28,Enterprise,Paid Search,North America,21788,872,5888.97,2026-04-29 12:00:00,Synthetic paid media platform export
+2026-04-28|Enterprise|Paid Search|EMEA,2026-04-28,Enterprise,Paid Search,EMEA,14954,596,3697.78,2026-04-29 12:00:00,Synthetic paid media platform export
+2026-04-28|Enterprise|Paid Search|APAC,2026-04-28,Enterprise,Paid Search,APAC,13673,529,2752.92,2026-04-29 12:00:00,Synthetic paid media platform export
+2026-04-29|SMB|Paid Search|North America,2026-04-29,SMB,Paid Search,North America,47123,2005,7382.56,2026-04-30 12:00:00,Synthetic paid media platform export
+2026-04-29|SMB|Paid Search|EMEA,2026-04-29,SMB,Paid Search,EMEA,27680,1146,3822.62,2026-04-30 12:00:00,Synthetic paid media platform export
+2026-04-29|SMB|Paid Search|APAC,2026-04-29,SMB,Paid Search,APAC,24591,1017,2906.58,2026-04-30 12:00:00,Synthetic paid media platform export
+2026-04-29|Mid-Market|Paid Search|North America,2026-04-29,Mid-Market,Paid Search,North America,35229,1467,7302.49,2026-04-30 12:00:00,Synthetic paid media platform export
+2026-04-29|Mid-Market|Paid Search|EMEA,2026-04-29,Mid-Market,Paid Search,EMEA,25294,1027,4793.32,2026-04-30 12:00:00,Synthetic paid media platform export
+2026-04-29|Mid-Market|Paid Search|APAC,2026-04-29,Mid-Market,Paid Search,APAC,20694,815,3141.26,2026-04-30 12:00:00,Synthetic paid media platform export
+2026-04-29|Enterprise|Paid Search|North America,2026-04-29,Enterprise,Paid Search,North America,20595,829,5743.72,2026-04-30 12:00:00,Synthetic paid media platform export
+2026-04-29|Enterprise|Paid Search|EMEA,2026-04-29,Enterprise,Paid Search,EMEA,14248,550,3421.88,2026-04-30 12:00:00,Synthetic paid media platform export
+2026-04-29|Enterprise|Paid Search|APAC,2026-04-29,Enterprise,Paid Search,APAC,16076,615,3196.13,2026-04-30 12:00:00,Synthetic paid media platform export
+2026-04-30|SMB|Paid Search|North America,2026-04-30,SMB,Paid Search,North America,40214,1698,6187.45,2026-05-01 12:00:00,Synthetic paid media platform export
+2026-04-30|SMB|Paid Search|EMEA,2026-04-30,SMB,Paid Search,EMEA,30476,1266,4282.65,2026-05-01 12:00:00,Synthetic paid media platform export
+2026-04-30|SMB|Paid Search|APAC,2026-04-30,SMB,Paid Search,APAC,29082,1183,3386.72,2026-05-01 12:00:00,Synthetic paid media platform export
+2026-04-30|Mid-Market|Paid Search|North America,2026-04-30,Mid-Market,Paid Search,North America,33378,1382,6858.96,2026-05-01 12:00:00,Synthetic paid media platform export
+2026-04-30|Mid-Market|Paid Search|EMEA,2026-04-30,Mid-Market,Paid Search,EMEA,22543,942,4338.81,2026-05-01 12:00:00,Synthetic paid media platform export
+2026-04-30|Mid-Market|Paid Search|APAC,2026-04-30,Mid-Market,Paid Search,APAC,21486,852,3248.89,2026-05-01 12:00:00,Synthetic paid media platform export
+2026-04-30|Enterprise|Paid Search|North America,2026-04-30,Enterprise,Paid Search,North America,20078,798,5435.93,2026-05-01 12:00:00,Synthetic paid media platform export
+2026-04-30|Enterprise|Paid Search|EMEA,2026-04-30,Enterprise,Paid Search,EMEA,16446,655,4051.41,2026-05-01 12:00:00,Synthetic paid media platform export
+2026-04-30|Enterprise|Paid Search|APAC,2026-04-30,Enterprise,Paid Search,APAC,14256,539,2836.36,2026-05-01 12:00:00,Synthetic paid media platform export
+2026-05-01|SMB|Paid Search|North America,2026-05-01,SMB,Paid Search,North America,43567,1887,7123.96,2026-05-02 12:00:00,Synthetic paid media platform export
+2026-05-01|SMB|Paid Search|EMEA,2026-05-01,SMB,Paid Search,EMEA,37125,1558,5170.52,2026-05-02 12:00:00,Synthetic paid media platform export
+2026-05-01|SMB|Paid Search|APAC,2026-05-01,SMB,Paid Search,APAC,27905,1130,3203.7,2026-05-02 12:00:00,Synthetic paid media platform export
+2026-05-01|Mid-Market|Paid Search|North America,2026-05-01,Mid-Market,Paid Search,North America,34879,1460,7449.67,2026-05-02 12:00:00,Synthetic paid media platform export
+2026-05-01|Mid-Market|Paid Search|EMEA,2026-05-01,Mid-Market,Paid Search,EMEA,23161,937,4245.54,2026-05-02 12:00:00,Synthetic paid media platform export
+2026-05-01|Mid-Market|Paid Search|APAC,2026-05-01,Mid-Market,Paid Search,APAC,18967,767,2973.52,2026-05-02 12:00:00,Synthetic paid media platform export
+2026-05-01|Enterprise|Paid Search|North America,2026-05-01,Enterprise,Paid Search,North America,25316,998,6911.46,2026-05-02 12:00:00,Synthetic paid media platform export
+2026-05-01|Enterprise|Paid Search|EMEA,2026-05-01,Enterprise,Paid Search,EMEA,14400,569,3527.32,2026-05-02 12:00:00,Synthetic paid media platform export
+2026-05-01|Enterprise|Paid Search|APAC,2026-05-01,Enterprise,Paid Search,APAC,14878,557,2836.27,2026-05-02 12:00:00,Synthetic paid media platform export
+2026-05-02|SMB|Paid Search|North America,2026-05-02,SMB,Paid Search,North America,29575,1257,4600.13,2026-05-03 12:00:00,Synthetic paid media platform export
+2026-05-02|SMB|Paid Search|EMEA,2026-05-02,SMB,Paid Search,EMEA,26168,1123,3752.8,2026-05-03 12:00:00,Synthetic paid media platform export
+2026-05-02|SMB|Paid Search|APAC,2026-05-02,SMB,Paid Search,APAC,21338,863,2400.54,2026-05-03 12:00:00,Synthetic paid media platform export
+2026-05-02|Mid-Market|Paid Search|North America,2026-05-02,Mid-Market,Paid Search,North America,22282,950,4771.69,2026-05-03 12:00:00,Synthetic paid media platform export
+2026-05-02|Mid-Market|Paid Search|EMEA,2026-05-02,Mid-Market,Paid Search,EMEA,18702,773,3641.93,2026-05-03 12:00:00,Synthetic paid media platform export
+2026-05-02|Mid-Market|Paid Search|APAC,2026-05-02,Mid-Market,Paid Search,APAC,18692,737,2848.27,2026-05-03 12:00:00,Synthetic paid media platform export
+2026-05-02|Enterprise|Paid Search|North America,2026-05-02,Enterprise,Paid Search,North America,14575,576,4025.39,2026-05-03 12:00:00,Synthetic paid media platform export
+2026-05-02|Enterprise|Paid Search|EMEA,2026-05-02,Enterprise,Paid Search,EMEA,12513,495,3092.04,2026-05-03 12:00:00,Synthetic paid media platform export
+2026-05-02|Enterprise|Paid Search|APAC,2026-05-02,Enterprise,Paid Search,APAC,9554,371,1896.28,2026-05-03 12:00:00,Synthetic paid media platform export
+2026-05-03|SMB|Paid Search|North America,2026-05-03,SMB,Paid Search,North America,33054,1425,5205.78,2026-05-04 12:00:00,Synthetic paid media platform export
+2026-05-03|SMB|Paid Search|EMEA,2026-05-03,SMB,Paid Search,EMEA,22595,948,3171.73,2026-05-04 12:00:00,Synthetic paid media platform export
+2026-05-03|SMB|Paid Search|APAC,2026-05-03,SMB,Paid Search,APAC,22163,912,2586.2,2026-05-04 12:00:00,Synthetic paid media platform export
+2026-05-03|Mid-Market|Paid Search|North America,2026-05-03,Mid-Market,Paid Search,North America,22088,930,4700.67,2026-05-04 12:00:00,Synthetic paid media platform export
+2026-05-03|Mid-Market|Paid Search|EMEA,2026-05-03,Mid-Market,Paid Search,EMEA,19502,797,3583.18,2026-05-04 12:00:00,Synthetic paid media platform export
+2026-05-03|Mid-Market|Paid Search|APAC,2026-05-03,Mid-Market,Paid Search,APAC,17070,666,2604.41,2026-05-04 12:00:00,Synthetic paid media platform export
+2026-05-03|Enterprise|Paid Search|North America,2026-05-03,Enterprise,Paid Search,North America,16604,657,4423.83,2026-05-04 12:00:00,Synthetic paid media platform export
+2026-05-03|Enterprise|Paid Search|EMEA,2026-05-03,Enterprise,Paid Search,EMEA,13333,528,3282.8,2026-05-04 12:00:00,Synthetic paid media platform export
+2026-05-03|Enterprise|Paid Search|APAC,2026-05-03,Enterprise,Paid Search,APAC,12669,492,2577.22,2026-05-04 12:00:00,Synthetic paid media platform export
+2026-05-04|SMB|Paid Search|North America,2026-05-04,SMB,Paid Search,North America,41160,1801,6560.89,2026-05-05 12:00:00,Synthetic paid media platform export
+2026-05-04|SMB|Paid Search|EMEA,2026-05-04,SMB,Paid Search,EMEA,31697,1339,4574.36,2026-05-05 12:00:00,Synthetic paid media platform export
+2026-05-04|SMB|Paid Search|APAC,2026-05-04,SMB,Paid Search,APAC,27623,1152,3226.28,2026-05-05 12:00:00,Synthetic paid media platform export
+2026-05-04|Mid-Market|Paid Search|North America,2026-05-04,Mid-Market,Paid Search,North America,32841,1395,7001.42,2026-05-05 12:00:00,Synthetic paid media platform export
+2026-05-04|Mid-Market|Paid Search|EMEA,2026-05-04,Mid-Market,Paid Search,EMEA,27000,1117,5199.97,2026-05-05 12:00:00,Synthetic paid media platform export
+2026-05-04|Mid-Market|Paid Search|APAC,2026-05-04,Mid-Market,Paid Search,APAC,21601,850,3293.81,2026-05-05 12:00:00,Synthetic paid media platform export
+2026-05-04|Enterprise|Paid Search|North America,2026-05-04,Enterprise,Paid Search,North America,22542,921,6290.45,2026-05-05 12:00:00,Synthetic paid media platform export
+2026-05-04|Enterprise|Paid Search|EMEA,2026-05-04,Enterprise,Paid Search,EMEA,15201,591,3621.03,2026-05-05 12:00:00,Synthetic paid media platform export
+2026-05-04|Enterprise|Paid Search|APAC,2026-05-04,Enterprise,Paid Search,APAC,12459,479,2468.81,2026-05-05 12:00:00,Synthetic paid media platform export
+2026-05-05|SMB|Paid Search|North America,2026-05-05,SMB,Paid Search,North America,47367,2006,7296.75,2026-05-06 12:00:00,Synthetic paid media platform export
+2026-05-05|SMB|Paid Search|EMEA,2026-05-05,SMB,Paid Search,EMEA,34516,1437,4726.96,2026-05-06 12:00:00,Synthetic paid media platform export
+2026-05-05|SMB|Paid Search|APAC,2026-05-05,SMB,Paid Search,APAC,27164,1103,3028.4,2026-05-06 12:00:00,Synthetic paid media platform export
+2026-05-05|Mid-Market|Paid Search|North America,2026-05-05,Mid-Market,Paid Search,North America,31639,1324,6734.67,2026-05-06 12:00:00,Synthetic paid media platform export
+2026-05-05|Mid-Market|Paid Search|EMEA,2026-05-05,Mid-Market,Paid Search,EMEA,25811,1045,4815.26,2026-05-06 12:00:00,Synthetic paid media platform export
+2026-05-05|Mid-Market|Paid Search|APAC,2026-05-05,Mid-Market,Paid Search,APAC,20856,813,3097.62,2026-05-06 12:00:00,Synthetic paid media platform export
+2026-05-05|Enterprise|Paid Search|North America,2026-05-05,Enterprise,Paid Search,North America,24558,996,6744.11,2026-05-06 12:00:00,Synthetic paid media platform export
+2026-05-05|Enterprise|Paid Search|EMEA,2026-05-05,Enterprise,Paid Search,EMEA,17863,712,4434.4,2026-05-06 12:00:00,Synthetic paid media platform export
+2026-05-05|Enterprise|Paid Search|APAC,2026-05-05,Enterprise,Paid Search,APAC,14711,551,2889.56,2026-05-06 12:00:00,Synthetic paid media platform export
+2026-05-06|SMB|Paid Search|North America,2026-05-06,SMB,Paid Search,North America,40026,1707,6351.63,2026-05-07 12:00:00,Synthetic paid media platform export
+2026-05-06|SMB|Paid Search|EMEA,2026-05-06,SMB,Paid Search,EMEA,38019,1598,5299.19,2026-05-07 12:00:00,Synthetic paid media platform export
+2026-05-06|SMB|Paid Search|APAC,2026-05-06,SMB,Paid Search,APAC,25180,1041,2859.92,2026-05-07 12:00:00,Synthetic paid media platform export
+2026-05-06|Mid-Market|Paid Search|North America,2026-05-06,Mid-Market,Paid Search,North America,31209,1308,6524.93,2026-05-07 12:00:00,Synthetic paid media platform export
+2026-05-06|Mid-Market|Paid Search|EMEA,2026-05-06,Mid-Market,Paid Search,EMEA,26114,1060,4995.44,2026-05-07 12:00:00,Synthetic paid media platform export
+2026-05-06|Mid-Market|Paid Search|APAC,2026-05-06,Mid-Market,Paid Search,APAC,22815,910,3536.42,2026-05-07 12:00:00,Synthetic paid media platform export
+2026-05-06|Enterprise|Paid Search|North America,2026-05-06,Enterprise,Paid Search,North America,23043,917,6324.76,2026-05-07 12:00:00,Synthetic paid media platform export
+2026-05-06|Enterprise|Paid Search|EMEA,2026-05-06,Enterprise,Paid Search,EMEA,16863,669,4045.65,2026-05-07 12:00:00,Synthetic paid media platform export
+2026-05-06|Enterprise|Paid Search|APAC,2026-05-06,Enterprise,Paid Search,APAC,15976,616,3189.13,2026-05-07 12:00:00,Synthetic paid media platform export
+2026-05-07|SMB|Paid Search|North America,2026-05-07,SMB,Paid Search,North America,45255,1950,7288.56,2026-05-08 12:00:00,Synthetic paid media platform export
+2026-05-07|SMB|Paid Search|EMEA,2026-05-07,SMB,Paid Search,EMEA,31115,1339,4495.2,2026-05-08 12:00:00,Synthetic paid media platform export
+2026-05-07|SMB|Paid Search|APAC,2026-05-07,SMB,Paid Search,APAC,27131,1094,3063.13,2026-05-08 12:00:00,Synthetic paid media platform export
+2026-05-07|Mid-Market|Paid Search|North America,2026-05-07,Mid-Market,Paid Search,North America,29785,1244,6422.02,2026-05-08 12:00:00,Synthetic paid media platform export
+2026-05-07|Mid-Market|Paid Search|EMEA,2026-05-07,Mid-Market,Paid Search,EMEA,28800,1175,5536.76,2026-05-08 12:00:00,Synthetic paid media platform export
+2026-05-07|Mid-Market|Paid Search|APAC,2026-05-07,Mid-Market,Paid Search,APAC,20912,848,3220.03,2026-05-08 12:00:00,Synthetic paid media platform export
+2026-05-07|Enterprise|Paid Search|North America,2026-05-07,Enterprise,Paid Search,North America,23892,956,6466.57,2026-05-08 12:00:00,Synthetic paid media platform export
+2026-05-07|Enterprise|Paid Search|EMEA,2026-05-07,Enterprise,Paid Search,EMEA,15729,608,3850.63,2026-05-08 12:00:00,Synthetic paid media platform export
+2026-05-07|Enterprise|Paid Search|APAC,2026-05-07,Enterprise,Paid Search,APAC,13812,523,2700.32,2026-05-08 12:00:00,Synthetic paid media platform export
+2026-05-08|SMB|Paid Search|North America,2026-05-08,SMB,Paid Search,North America,45310,1977,7314.95,2026-05-09 12:00:00,Synthetic paid media platform export
+2026-05-08|SMB|Paid Search|EMEA,2026-05-08,SMB,Paid Search,EMEA,32854,1383,4707.89,2026-05-09 12:00:00,Synthetic paid media platform export
+2026-05-08|SMB|Paid Search|APAC,2026-05-08,SMB,Paid Search,APAC,24823,1003,2810.4,2026-05-09 12:00:00,Synthetic paid media platform export
+2026-05-08|Mid-Market|Paid Search|North America,2026-05-08,Mid-Market,Paid Search,North America,34379,1424,7180.85,2026-05-09 12:00:00,Synthetic paid media platform export
+2026-05-08|Mid-Market|Paid Search|EMEA,2026-05-08,Mid-Market,Paid Search,EMEA,25030,1028,4716.98,2026-05-09 12:00:00,Synthetic paid media platform export
+2026-05-08|Mid-Market|Paid Search|APAC,2026-05-08,Mid-Market,Paid Search,APAC,22129,896,3411.12,2026-05-09 12:00:00,Synthetic paid media platform export
+2026-05-08|Enterprise|Paid Search|North America,2026-05-08,Enterprise,Paid Search,North America,22283,898,6061.99,2026-05-09 12:00:00,Synthetic paid media platform export
+2026-05-08|Enterprise|Paid Search|EMEA,2026-05-08,Enterprise,Paid Search,EMEA,15835,617,3914.32,2026-05-09 12:00:00,Synthetic paid media platform export
+2026-05-08|Enterprise|Paid Search|APAC,2026-05-08,Enterprise,Paid Search,APAC,14638,563,2974.93,2026-05-09 12:00:00,Synthetic paid media platform export
+2026-05-09|SMB|Paid Search|North America,2026-05-09,SMB,Paid Search,North America,29235,1269,4739.12,2026-05-10 12:00:00,Synthetic paid media platform export
+2026-05-09|SMB|Paid Search|EMEA,2026-05-09,SMB,Paid Search,EMEA,25824,1106,3685.1,2026-05-10 12:00:00,Synthetic paid media platform export
+2026-05-09|SMB|Paid Search|APAC,2026-05-09,SMB,Paid Search,APAC,21082,857,2398.81,2026-05-10 12:00:00,Synthetic paid media platform export
+2026-05-09|Mid-Market|Paid Search|North America,2026-05-09,Mid-Market,Paid Search,North America,24328,1018,5023.6,2026-05-10 12:00:00,Synthetic paid media platform export
+2026-05-09|Mid-Market|Paid Search|EMEA,2026-05-09,Mid-Market,Paid Search,EMEA,19617,808,3679.39,2026-05-10 12:00:00,Synthetic paid media platform export
+2026-05-09|Mid-Market|Paid Search|APAC,2026-05-09,Mid-Market,Paid Search,APAC,18476,734,2795.18,2026-05-10 12:00:00,Synthetic paid media platform export
+2026-05-09|Enterprise|Paid Search|North America,2026-05-09,Enterprise,Paid Search,North America,15099,613,4088.43,2026-05-10 12:00:00,Synthetic paid media platform export
+2026-05-09|Enterprise|Paid Search|EMEA,2026-05-09,Enterprise,Paid Search,EMEA,14080,552,3505.92,2026-05-10 12:00:00,Synthetic paid media platform export
+2026-05-09|Enterprise|Paid Search|APAC,2026-05-09,Enterprise,Paid Search,APAC,10703,409,2172.69,2026-05-10 12:00:00,Synthetic paid media platform export
+2026-05-10|SMB|Paid Search|North America,2026-05-10,SMB,Paid Search,North America,33774,1451,5449.84,2026-05-11 12:00:00,Synthetic paid media platform export
+2026-05-10|SMB|Paid Search|EMEA,2026-05-10,SMB,Paid Search,EMEA,24970,1045,3462.78,2026-05-11 12:00:00,Synthetic paid media platform export
+2026-05-10|SMB|Paid Search|APAC,2026-05-10,SMB,Paid Search,APAC,20586,844,2315.78,2026-05-11 12:00:00,Synthetic paid media platform export
+2026-05-10|Mid-Market|Paid Search|North America,2026-05-10,Mid-Market,Paid Search,North America,28378,1177,5965.02,2026-05-11 12:00:00,Synthetic paid media platform export
+2026-05-10|Mid-Market|Paid Search|EMEA,2026-05-10,Mid-Market,Paid Search,EMEA,18487,761,3490.21,2026-05-11 12:00:00,Synthetic paid media platform export
+2026-05-10|Mid-Market|Paid Search|APAC,2026-05-10,Mid-Market,Paid Search,APAC,18971,746,2890.31,2026-05-11 12:00:00,Synthetic paid media platform export
+2026-05-10|Enterprise|Paid Search|North America,2026-05-10,Enterprise,Paid Search,North America,17960,719,4891.15,2026-05-11 12:00:00,Synthetic paid media platform export
+2026-05-10|Enterprise|Paid Search|EMEA,2026-05-10,Enterprise,Paid Search,EMEA,11965,470,2904.36,2026-05-11 12:00:00,Synthetic paid media platform export
+2026-05-10|Enterprise|Paid Search|APAC,2026-05-10,Enterprise,Paid Search,APAC,11916,446,2324.07,2026-05-11 12:00:00,Synthetic paid media platform export
+2026-05-11|SMB|Paid Search|North America,2026-05-11,SMB,Paid Search,North America,42067,1810,6681.81,2026-05-12 12:00:00,Synthetic paid media platform export
+2026-05-11|SMB|Paid Search|EMEA,2026-05-11,SMB,Paid Search,EMEA,31910,1345,4457.78,2026-05-12 12:00:00,Synthetic paid media platform export
+2026-05-11|SMB|Paid Search|APAC,2026-05-11,SMB,Paid Search,APAC,29724,1206,3325.86,2026-05-12 12:00:00,Synthetic paid media platform export
+2026-05-11|Mid-Market|Paid Search|North America,2026-05-11,Mid-Market,Paid Search,North America,31725,1331,6762.87,2026-05-12 12:00:00,Synthetic paid media platform export
+2026-05-11|Mid-Market|Paid Search|EMEA,2026-05-11,Mid-Market,Paid Search,EMEA,27346,1120,5230.17,2026-05-12 12:00:00,Synthetic paid media platform export
+2026-05-11|Mid-Market|Paid Search|APAC,2026-05-11,Mid-Market,Paid Search,APAC,21410,836,3219.82,2026-05-12 12:00:00,Synthetic paid media platform export
+2026-05-11|Enterprise|Paid Search|North America,2026-05-11,Enterprise,Paid Search,North America,21011,855,5819.55,2026-05-12 12:00:00,Synthetic paid media platform export
+2026-05-11|Enterprise|Paid Search|EMEA,2026-05-11,Enterprise,Paid Search,EMEA,17747,701,4264.5,2026-05-12 12:00:00,Synthetic paid media platform export
+2026-05-11|Enterprise|Paid Search|APAC,2026-05-11,Enterprise,Paid Search,APAC,13715,518,2745.6,2026-05-12 12:00:00,Synthetic paid media platform export
+2026-05-12|SMB|Paid Search|North America,2026-05-12,SMB,Paid Search,North America,46412,2011,7319.97,2026-05-13 12:00:00,Synthetic paid media platform export
+2026-05-12|SMB|Paid Search|EMEA,2026-05-12,SMB,Paid Search,EMEA,29614,1262,4261.77,2026-05-13 12:00:00,Synthetic paid media platform export
+2026-05-12|SMB|Paid Search|APAC,2026-05-12,SMB,Paid Search,APAC,26034,1074,2957.94,2026-05-13 12:00:00,Synthetic paid media platform export
+2026-05-12|Mid-Market|Paid Search|North America,2026-05-12,Mid-Market,Paid Search,North America,37552,1552,7903.37,2026-05-13 12:00:00,Synthetic paid media platform export
+2026-05-12|Mid-Market|Paid Search|EMEA,2026-05-12,Mid-Market,Paid Search,EMEA,24360,1011,4733.83,2026-05-13 12:00:00,Synthetic paid media platform export
+2026-05-12|Mid-Market|Paid Search|APAC,2026-05-12,Mid-Market,Paid Search,APAC,22280,874,3329.41,2026-05-13 12:00:00,Synthetic paid media platform export
+2026-05-12|Enterprise|Paid Search|North America,2026-05-12,Enterprise,Paid Search,North America,23648,957,6544.64,2026-05-13 12:00:00,Synthetic paid media platform export
+2026-05-12|Enterprise|Paid Search|EMEA,2026-05-12,Enterprise,Paid Search,EMEA,17172,669,4213.32,2026-05-13 12:00:00,Synthetic paid media platform export
+2026-05-12|Enterprise|Paid Search|APAC,2026-05-12,Enterprise,Paid Search,APAC,16058,623,3307.68,2026-05-13 12:00:00,Synthetic paid media platform export
+2026-05-13|SMB|Paid Search|North America,2026-05-13,SMB,Paid Search,North America,41468,1777,6582.37,2026-05-14 12:00:00,Synthetic paid media platform export
+2026-05-13|SMB|Paid Search|EMEA,2026-05-13,SMB,Paid Search,EMEA,34813,1458,4953.35,2026-05-14 12:00:00,Synthetic paid media platform export
+2026-05-13|SMB|Paid Search|APAC,2026-05-13,SMB,Paid Search,APAC,30917,1275,3627.01,2026-05-14 12:00:00,Synthetic paid media platform export
+2026-05-13|Mid-Market|Paid Search|North America,2026-05-13,Mid-Market,Paid Search,North America,35944,1506,7789.55,2026-05-14 12:00:00,Synthetic paid media platform export
+2026-05-13|Mid-Market|Paid Search|EMEA,2026-05-13,Mid-Market,Paid Search,EMEA,24532,996,4680.72,2026-05-14 12:00:00,Synthetic paid media platform export
+2026-05-13|Mid-Market|Paid Search|APAC,2026-05-13,Mid-Market,Paid Search,APAC,21139,825,3227.98,2026-05-14 12:00:00,Synthetic paid media platform export
+2026-05-13|Enterprise|Paid Search|North America,2026-05-13,Enterprise,Paid Search,North America,21033,828,5731.22,2026-05-14 12:00:00,Synthetic paid media platform export
+2026-05-13|Enterprise|Paid Search|EMEA,2026-05-13,Enterprise,Paid Search,EMEA,16846,665,4132.05,2026-05-14 12:00:00,Synthetic paid media platform export
+2026-05-13|Enterprise|Paid Search|APAC,2026-05-13,Enterprise,Paid Search,APAC,14855,566,2908.08,2026-05-14 12:00:00,Synthetic paid media platform export
+2026-05-14|SMB|Paid Search|North America,2026-05-14,SMB,Paid Search,North America,40717,1760,6570.22,2026-05-15 12:00:00,Synthetic paid media platform export
+2026-05-14|SMB|Paid Search|EMEA,2026-05-14,SMB,Paid Search,EMEA,28485,1226,4102.71,2026-05-15 12:00:00,Synthetic paid media platform export
+2026-05-14|SMB|Paid Search|APAC,2026-05-14,SMB,Paid Search,APAC,32846,1347,3815.06,2026-05-15 12:00:00,Synthetic paid media platform export
+2026-05-14|Mid-Market|Paid Search|North America,2026-05-14,Mid-Market,Paid Search,North America,33855,1407,7207.45,2026-05-15 12:00:00,Synthetic paid media platform export
+2026-05-14|Mid-Market|Paid Search|EMEA,2026-05-14,Mid-Market,Paid Search,EMEA,24277,978,4489.91,2026-05-15 12:00:00,Synthetic paid media platform export
+2026-05-14|Mid-Market|Paid Search|APAC,2026-05-14,Mid-Market,Paid Search,APAC,22103,869,3316.62,2026-05-15 12:00:00,Synthetic paid media platform export
+2026-05-14|Enterprise|Paid Search|North America,2026-05-14,Enterprise,Paid Search,North America,21454,845,5661.72,2026-05-15 12:00:00,Synthetic paid media platform export
+2026-05-14|Enterprise|Paid Search|EMEA,2026-05-14,Enterprise,Paid Search,EMEA,16119,636,4040.05,2026-05-15 12:00:00,Synthetic paid media platform export
+2026-05-14|Enterprise|Paid Search|APAC,2026-05-14,Enterprise,Paid Search,APAC,14688,554,2813.14,2026-05-15 12:00:00,Synthetic paid media platform export
+2026-05-15|SMB|Paid Search|North America,2026-05-15,SMB,Paid Search,North America,58510,2556,9808,2026-05-16 12:00:00,Synthetic paid media platform export
+2026-05-15|SMB|Paid Search|EMEA,2026-05-15,SMB,Paid Search,EMEA,46107,1979,6862.47,2026-05-16 12:00:00,Synthetic paid media platform export
+2026-05-15|SMB|Paid Search|APAC,2026-05-15,SMB,Paid Search,APAC,43769,1780,5193.68,2026-05-16 12:00:00,Synthetic paid media platform export
+2026-05-15|Mid-Market|Paid Search|North America,2026-05-15,Mid-Market,Paid Search,North America,34665,1450,7510.28,2026-05-16 12:00:00,Synthetic paid media platform export
+2026-05-15|Mid-Market|Paid Search|EMEA,2026-05-15,Mid-Market,Paid Search,EMEA,23493,945,4242.01,2026-05-16 12:00:00,Synthetic paid media platform export
+2026-05-15|Mid-Market|Paid Search|APAC,2026-05-15,Mid-Market,Paid Search,APAC,23712,958,3725.07,2026-05-16 12:00:00,Synthetic paid media platform export
+2026-05-15|Enterprise|Paid Search|North America,2026-05-15,Enterprise,Paid Search,North America,21413,869,5995.06,2026-05-16 12:00:00,Synthetic paid media platform export
+2026-05-15|Enterprise|Paid Search|EMEA,2026-05-15,Enterprise,Paid Search,EMEA,15510,608,3754.11,2026-05-16 12:00:00,Synthetic paid media platform export
+2026-05-15|Enterprise|Paid Search|APAC,2026-05-15,Enterprise,Paid Search,APAC,15826,593,3079.86,2026-05-16 12:00:00,Synthetic paid media platform export
+2026-05-16|SMB|Paid Search|North America,2026-05-16,SMB,Paid Search,North America,43753,1914,7333.67,2026-05-17 12:00:00,Synthetic paid media platform export
+2026-05-16|SMB|Paid Search|EMEA,2026-05-16,SMB,Paid Search,EMEA,34588,1450,4996.5,2026-05-17 12:00:00,Synthetic paid media platform export
+2026-05-16|SMB|Paid Search|APAC,2026-05-16,SMB,Paid Search,APAC,33508,1353,3948.08,2026-05-17 12:00:00,Synthetic paid media platform export
+2026-05-16|Mid-Market|Paid Search|North America,2026-05-16,Mid-Market,Paid Search,North America,28252,1184,6045.2,2026-05-17 12:00:00,Synthetic paid media platform export
+2026-05-16|Mid-Market|Paid Search|EMEA,2026-05-16,Mid-Market,Paid Search,EMEA,19172,778,3542.75,2026-05-17 12:00:00,Synthetic paid media platform export
+2026-05-16|Mid-Market|Paid Search|APAC,2026-05-16,Mid-Market,Paid Search,APAC,18607,726,2805.83,2026-05-17 12:00:00,Synthetic paid media platform export
+2026-05-16|Enterprise|Paid Search|North America,2026-05-16,Enterprise,Paid Search,North America,20492,816,5431.06,2026-05-17 12:00:00,Synthetic paid media platform export
+2026-05-16|Enterprise|Paid Search|EMEA,2026-05-16,Enterprise,Paid Search,EMEA,13118,513,3227.53,2026-05-17 12:00:00,Synthetic paid media platform export
+2026-05-16|Enterprise|Paid Search|APAC,2026-05-16,Enterprise,Paid Search,APAC,13411,512,2679.25,2026-05-17 12:00:00,Synthetic paid media platform export
+2026-05-17|SMB|Paid Search|North America,2026-05-17,SMB,Paid Search,North America,54093,2361,9217.41,2026-05-18 12:00:00,Synthetic paid media platform export
+2026-05-17|SMB|Paid Search|EMEA,2026-05-17,SMB,Paid Search,EMEA,37787,1604,5717.59,2026-05-18 12:00:00,Synthetic paid media platform export
+2026-05-17|SMB|Paid Search|APAC,2026-05-17,SMB,Paid Search,APAC,33312,1359,4021.98,2026-05-18 12:00:00,Synthetic paid media platform export
+2026-05-17|Mid-Market|Paid Search|North America,2026-05-17,Mid-Market,Paid Search,North America,23686,993,4979.23,2026-05-18 12:00:00,Synthetic paid media platform export
+2026-05-17|Mid-Market|Paid Search|EMEA,2026-05-17,Mid-Market,Paid Search,EMEA,19767,823,3748.5,2026-05-18 12:00:00,Synthetic paid media platform export
+2026-05-17|Mid-Market|Paid Search|APAC,2026-05-17,Mid-Market,Paid Search,APAC,17713,711,2739.41,2026-05-18 12:00:00,Synthetic paid media platform export
+2026-05-17|Enterprise|Paid Search|North America,2026-05-17,Enterprise,Paid Search,North America,15798,645,4373.74,2026-05-18 12:00:00,Synthetic paid media platform export
+2026-05-17|Enterprise|Paid Search|EMEA,2026-05-17,Enterprise,Paid Search,EMEA,11646,465,2819.6,2026-05-18 12:00:00,Synthetic paid media platform export
+2026-05-17|Enterprise|Paid Search|APAC,2026-05-17,Enterprise,Paid Search,APAC,10784,408,2135.09,2026-05-18 12:00:00,Synthetic paid media platform export
+2026-05-18|SMB|Paid Search|North America,2026-05-18,SMB,Paid Search,North America,69818,3034,12027.02,2026-05-19 12:00:00,Synthetic paid media platform export
+2026-05-18|SMB|Paid Search|EMEA,2026-05-18,SMB,Paid Search,EMEA,46411,1987,6994.1,2026-05-19 12:00:00,Synthetic paid media platform export
+2026-05-18|SMB|Paid Search|APAC,2026-05-18,SMB,Paid Search,APAC,34898,1413,4188.5,2026-05-19 12:00:00,Synthetic paid media platform export
+2026-05-18|Mid-Market|Paid Search|North America,2026-05-18,Mid-Market,Paid Search,North America,33674,1413,7268.23,2026-05-19 12:00:00,Synthetic paid media platform export
+2026-05-18|Mid-Market|Paid Search|EMEA,2026-05-18,Mid-Market,Paid Search,EMEA,25308,1026,4688.2,2026-05-19 12:00:00,Synthetic paid media platform export
+2026-05-18|Mid-Market|Paid Search|APAC,2026-05-18,Mid-Market,Paid Search,APAC,21117,839,3264.49,2026-05-19 12:00:00,Synthetic paid media platform export
+2026-05-18|Enterprise|Paid Search|North America,2026-05-18,Enterprise,Paid Search,North America,20300,817,5646.47,2026-05-19 12:00:00,Synthetic paid media platform export
+2026-05-18|Enterprise|Paid Search|EMEA,2026-05-18,Enterprise,Paid Search,EMEA,15645,606,3818.98,2026-05-19 12:00:00,Synthetic paid media platform export
+2026-05-18|Enterprise|Paid Search|APAC,2026-05-18,Enterprise,Paid Search,APAC,15063,569,2983.6,2026-05-19 12:00:00,Synthetic paid media platform export
+2026-05-19|SMB|Paid Search|North America,2026-05-19,SMB,Paid Search,North America,54140,2365,9083.25,2026-05-20 12:00:00,Synthetic paid media platform export
+2026-05-19|SMB|Paid Search|EMEA,2026-05-19,SMB,Paid Search,EMEA,53117,2275,7915.08,2026-05-20 12:00:00,Synthetic paid media platform export
+2026-05-19|SMB|Paid Search|APAC,2026-05-19,SMB,Paid Search,APAC,40766,1652,4931.28,2026-05-20 12:00:00,Synthetic paid media platform export
+2026-05-19|Mid-Market|Paid Search|North America,2026-05-19,Mid-Market,Paid Search,North America,34430,1440,7176.26,2026-05-20 12:00:00,Synthetic paid media platform export
+2026-05-19|Mid-Market|Paid Search|EMEA,2026-05-19,Mid-Market,Paid Search,EMEA,25048,1011,4765.95,2026-05-20 12:00:00,Synthetic paid media platform export
+2026-05-19|Mid-Market|Paid Search|APAC,2026-05-19,Mid-Market,Paid Search,APAC,21996,882,3374.91,2026-05-20 12:00:00,Synthetic paid media platform export
+2026-05-19|Enterprise|Paid Search|North America,2026-05-19,Enterprise,Paid Search,North America,22329,894,6209.85,2026-05-20 12:00:00,Synthetic paid media platform export
+2026-05-19|Enterprise|Paid Search|EMEA,2026-05-19,Enterprise,Paid Search,EMEA,17039,681,4147.98,2026-05-20 12:00:00,Synthetic paid media platform export
+2026-05-19|Enterprise|Paid Search|APAC,2026-05-19,Enterprise,Paid Search,APAC,14268,543,2844.72,2026-05-20 12:00:00,Synthetic paid media platform export
+2026-05-20|SMB|Paid Search|North America,2026-05-20,SMB,Paid Search,North America,60769,2619,10201.26,2026-05-21 12:00:00,Synthetic paid media platform export
+2026-05-20|SMB|Paid Search|EMEA,2026-05-20,SMB,Paid Search,EMEA,46861,2009,6944.4,2026-05-21 12:00:00,Synthetic paid media platform export
+2026-05-20|SMB|Paid Search|APAC,2026-05-20,SMB,Paid Search,APAC,40474,1627,4836.48,2026-05-21 12:00:00,Synthetic paid media platform export
+2026-05-20|Mid-Market|Paid Search|North America,2026-05-20,Mid-Market,Paid Search,North America,36416,1504,7773.5,2026-05-21 12:00:00,Synthetic paid media platform export
+2026-05-20|Mid-Market|Paid Search|EMEA,2026-05-20,Mid-Market,Paid Search,EMEA,26828,1103,5080.33,2026-05-21 12:00:00,Synthetic paid media platform export
+2026-05-20|Mid-Market|Paid Search|APAC,2026-05-20,Mid-Market,Paid Search,APAC,20489,822,3189.42,2026-05-21 12:00:00,Synthetic paid media platform export
+2026-05-20|Enterprise|Paid Search|North America,2026-05-20,Enterprise,Paid Search,North America,23788,954,6618.37,2026-05-21 12:00:00,Synthetic paid media platform export
+2026-05-20|Enterprise|Paid Search|EMEA,2026-05-20,Enterprise,Paid Search,EMEA,16363,650,3949.83,2026-05-21 12:00:00,Synthetic paid media platform export
+2026-05-20|Enterprise|Paid Search|APAC,2026-05-20,Enterprise,Paid Search,APAC,13671,521,2698.84,2026-05-21 12:00:00,Synthetic paid media platform export
+2026-05-21|SMB|Paid Search|North America,2026-05-21,SMB,Paid Search,North America,67087,2903,11112.85,2026-05-22 12:00:00,Synthetic paid media platform export
+2026-05-21|SMB|Paid Search|EMEA,2026-05-21,SMB,Paid Search,EMEA,45046,1885,6661.95,2026-05-22 12:00:00,Synthetic paid media platform export
+2026-05-21|SMB|Paid Search|APAC,2026-05-21,SMB,Paid Search,APAC,40316,1653,4762.73,2026-05-22 12:00:00,Synthetic paid media platform export
+2026-05-21|Mid-Market|Paid Search|North America,2026-05-21,Mid-Market,Paid Search,North America,29788,1243,6288.87,2026-05-22 12:00:00,Synthetic paid media platform export
+2026-05-21|Mid-Market|Paid Search|EMEA,2026-05-21,Mid-Market,Paid Search,EMEA,25894,1060,4754.91,2026-05-22 12:00:00,Synthetic paid media platform export
+2026-05-21|Mid-Market|Paid Search|APAC,2026-05-21,Mid-Market,Paid Search,APAC,19498,788,3094.62,2026-05-22 12:00:00,Synthetic paid media platform export
+2026-05-21|Enterprise|Paid Search|North America,2026-05-21,Enterprise,Paid Search,North America,23931,942,6306.26,2026-05-22 12:00:00,Synthetic paid media platform export
+2026-05-21|Enterprise|Paid Search|EMEA,2026-05-21,Enterprise,Paid Search,EMEA,16720,655,4154.82,2026-05-22 12:00:00,Synthetic paid media platform export
+2026-05-21|Enterprise|Paid Search|APAC,2026-05-21,Enterprise,Paid Search,APAC,15742,602,3117.42,2026-05-22 12:00:00,Synthetic paid media platform export
+2026-05-22|SMB|Paid Search|North America,2026-05-22,SMB,Paid Search,North America,68344,2973,11279.73,2026-05-23 12:00:00,Synthetic paid media platform export
+2026-05-22|SMB|Paid Search|EMEA,2026-05-22,SMB,Paid Search,EMEA,51794,2174,7624.43,2026-05-23 12:00:00,Synthetic paid media platform export
+2026-05-22|SMB|Paid Search|APAC,2026-05-22,SMB,Paid Search,APAC,45593,1831,5329.86,2026-05-23 12:00:00,Synthetic paid media platform export
+2026-05-22|Mid-Market|Paid Search|North America,2026-05-22,Mid-Market,Paid Search,North America,34779,1434,7180.41,2026-05-23 12:00:00,Synthetic paid media platform export
+2026-05-22|Mid-Market|Paid Search|EMEA,2026-05-22,Mid-Market,Paid Search,EMEA,24304,1013,4624.12,2026-05-23 12:00:00,Synthetic paid media platform export
+2026-05-22|Mid-Market|Paid Search|APAC,2026-05-22,Mid-Market,Paid Search,APAC,26185,1041,4107.19,2026-05-23 12:00:00,Synthetic paid media platform export
+2026-05-22|Enterprise|Paid Search|North America,2026-05-22,Enterprise,Paid Search,North America,22682,921,6416.92,2026-05-23 12:00:00,Synthetic paid media platform export
+2026-05-22|Enterprise|Paid Search|EMEA,2026-05-22,Enterprise,Paid Search,EMEA,18205,703,4287.71,2026-05-23 12:00:00,Synthetic paid media platform export
+2026-05-22|Enterprise|Paid Search|APAC,2026-05-22,Enterprise,Paid Search,APAC,15693,592,3101.62,2026-05-23 12:00:00,Synthetic paid media platform export
+2026-05-23|SMB|Paid Search|North America,2026-05-23,SMB,Paid Search,North America,46369,1999,7661.27,2026-05-24 12:00:00,Synthetic paid media platform export
+2026-05-23|SMB|Paid Search|EMEA,2026-05-23,SMB,Paid Search,EMEA,33296,1422,4972.6,2026-05-24 12:00:00,Synthetic paid media platform export
+2026-05-23|SMB|Paid Search|APAC,2026-05-23,SMB,Paid Search,APAC,33823,1408,4167.05,2026-05-24 12:00:00,Synthetic paid media platform export
+2026-05-23|Mid-Market|Paid Search|North America,2026-05-23,Mid-Market,Paid Search,North America,28447,1168,6006.63,2026-05-24 12:00:00,Synthetic paid media platform export
+2026-05-23|Mid-Market|Paid Search|EMEA,2026-05-23,Mid-Market,Paid Search,EMEA,21219,887,4121.1,2026-05-24 12:00:00,Synthetic paid media platform export
+2026-05-23|Mid-Market|Paid Search|APAC,2026-05-23,Mid-Market,Paid Search,APAC,17954,702,2719.13,2026-05-24 12:00:00,Synthetic paid media platform export
+2026-05-23|Enterprise|Paid Search|North America,2026-05-23,Enterprise,Paid Search,North America,18203,742,5160.01,2026-05-24 12:00:00,Synthetic paid media platform export
+2026-05-23|Enterprise|Paid Search|EMEA,2026-05-23,Enterprise,Paid Search,EMEA,12438,497,3032.07,2026-05-24 12:00:00,Synthetic paid media platform export
+2026-05-23|Enterprise|Paid Search|APAC,2026-05-23,Enterprise,Paid Search,APAC,11013,414,2118.7,2026-05-24 12:00:00,Synthetic paid media platform export
+2026-05-24|SMB|Paid Search|North America,2026-05-24,SMB,Paid Search,North America,51088,2175,8459.37,2026-05-25 12:00:00,Synthetic paid media platform export
+2026-05-24|SMB|Paid Search|EMEA,2026-05-24,SMB,Paid Search,EMEA,38783,1661,5853.24,2026-05-25 12:00:00,Synthetic paid media platform export
+2026-05-24|SMB|Paid Search|APAC,2026-05-24,SMB,Paid Search,APAC,33922,1382,4044.58,2026-05-25 12:00:00,Synthetic paid media platform export
+2026-05-24|Mid-Market|Paid Search|North America,2026-05-24,Mid-Market,Paid Search,North America,25902,1087,5405.92,2026-05-25 12:00:00,Synthetic paid media platform export
+2026-05-24|Mid-Market|Paid Search|EMEA,2026-05-24,Mid-Market,Paid Search,EMEA,20299,841,3801.21,2026-05-25 12:00:00,Synthetic paid media platform export
+2026-05-24|Mid-Market|Paid Search|APAC,2026-05-24,Mid-Market,Paid Search,APAC,17758,702,2775.59,2026-05-25 12:00:00,Synthetic paid media platform export
+2026-05-24|Enterprise|Paid Search|North America,2026-05-24,Enterprise,Paid Search,North America,16394,652,4340.7,2026-05-25 12:00:00,Synthetic paid media platform export
+2026-05-24|Enterprise|Paid Search|EMEA,2026-05-24,Enterprise,Paid Search,EMEA,12283,480,2961.71,2026-05-25 12:00:00,Synthetic paid media platform export
+2026-05-24|Enterprise|Paid Search|APAC,2026-05-24,Enterprise,Paid Search,APAC,12448,480,2520.73,2026-05-25 12:00:00,Synthetic paid media platform export
+2026-05-25|SMB|Paid Search|North America,2026-05-25,SMB,Paid Search,North America,65525,2845,10785.58,2026-05-26 12:00:00,Synthetic paid media platform export
+2026-05-25|SMB|Paid Search|EMEA,2026-05-25,SMB,Paid Search,EMEA,48258,2047,7317.56,2026-05-26 12:00:00,Synthetic paid media platform export
+2026-05-25|SMB|Paid Search|APAC,2026-05-25,SMB,Paid Search,APAC,39736,1623,4782.04,2026-05-26 12:00:00,Synthetic paid media platform export
+2026-05-25|Mid-Market|Paid Search|North America,2026-05-25,Mid-Market,Paid Search,North America,36677,1515,7524.65,2026-05-26 12:00:00,Synthetic paid media platform export
+2026-05-25|Mid-Market|Paid Search|EMEA,2026-05-25,Mid-Market,Paid Search,EMEA,28084,1172,5262.38,2026-05-26 12:00:00,Synthetic paid media platform export
+2026-05-25|Mid-Market|Paid Search|APAC,2026-05-25,Mid-Market,Paid Search,APAC,22340,894,3441.47,2026-05-26 12:00:00,Synthetic paid media platform export
+2026-05-25|Enterprise|Paid Search|North America,2026-05-25,Enterprise,Paid Search,North America,21078,831,5631.19,2026-05-26 12:00:00,Synthetic paid media platform export
+2026-05-25|Enterprise|Paid Search|EMEA,2026-05-25,Enterprise,Paid Search,EMEA,15999,636,3848.67,2026-05-26 12:00:00,Synthetic paid media platform export
+2026-05-25|Enterprise|Paid Search|APAC,2026-05-25,Enterprise,Paid Search,APAC,15654,598,3121.7,2026-05-26 12:00:00,Synthetic paid media platform export
+2026-05-26|SMB|Paid Search|North America,2026-05-26,SMB,Paid Search,North America,70153,2982,11410.58,2026-05-27 12:00:00,Synthetic paid media platform export
+2026-05-26|SMB|Paid Search|EMEA,2026-05-26,SMB,Paid Search,EMEA,48033,2054,7318.89,2026-05-27 12:00:00,Synthetic paid media platform export
+2026-05-26|SMB|Paid Search|APAC,2026-05-26,SMB,Paid Search,APAC,47105,1900,5729.27,2026-05-27 12:00:00,Synthetic paid media platform export
+2026-05-26|Mid-Market|Paid Search|North America,2026-05-26,Mid-Market,Paid Search,North America,36046,1504,7708.87,2026-05-27 12:00:00,Synthetic paid media platform export
+2026-05-26|Mid-Market|Paid Search|EMEA,2026-05-26,Mid-Market,Paid Search,EMEA,24529,986,4499.21,2026-05-27 12:00:00,Synthetic paid media platform export
+2026-05-26|Mid-Market|Paid Search|APAC,2026-05-26,Mid-Market,Paid Search,APAC,22003,880,3350.64,2026-05-27 12:00:00,Synthetic paid media platform export
+2026-05-26|Enterprise|Paid Search|North America,2026-05-26,Enterprise,Paid Search,North America,21203,859,5798.55,2026-05-27 12:00:00,Synthetic paid media platform export
+2026-05-26|Enterprise|Paid Search|EMEA,2026-05-26,Enterprise,Paid Search,EMEA,16546,652,3966.81,2026-05-27 12:00:00,Synthetic paid media platform export
+2026-05-26|Enterprise|Paid Search|APAC,2026-05-26,Enterprise,Paid Search,APAC,16066,623,3286.67,2026-05-27 12:00:00,Synthetic paid media platform export
+2026-05-27|SMB|Paid Search|North America,2026-05-27,SMB,Paid Search,North America,57107,2448,9411.79,2026-05-28 12:00:00,Synthetic paid media platform export
+2026-05-27|SMB|Paid Search|EMEA,2026-05-27,SMB,Paid Search,EMEA,49970,2071,7346.21,2026-05-28 12:00:00,Synthetic paid media platform export
+2026-05-27|SMB|Paid Search|APAC,2026-05-27,SMB,Paid Search,APAC,38267,1544,4488.47,2026-05-28 12:00:00,Synthetic paid media platform export
+2026-05-27|Mid-Market|Paid Search|North America,2026-05-27,Mid-Market,Paid Search,North America,37297,1546,7793.78,2026-05-28 12:00:00,Synthetic paid media platform export
+2026-05-27|Mid-Market|Paid Search|EMEA,2026-05-27,Mid-Market,Paid Search,EMEA,24655,1031,4760.11,2026-05-28 12:00:00,Synthetic paid media platform export
+2026-05-27|Mid-Market|Paid Search|APAC,2026-05-27,Mid-Market,Paid Search,APAC,22139,887,3426.43,2026-05-28 12:00:00,Synthetic paid media platform export
+2026-05-27|Enterprise|Paid Search|North America,2026-05-27,Enterprise,Paid Search,North America,21759,890,5993.72,2026-05-28 12:00:00,Synthetic paid media platform export
+2026-05-27|Enterprise|Paid Search|EMEA,2026-05-27,Enterprise,Paid Search,EMEA,15813,611,3796.04,2026-05-28 12:00:00,Synthetic paid media platform export
+2026-05-27|Enterprise|Paid Search|APAC,2026-05-27,Enterprise,Paid Search,APAC,15005,568,2904.8,2026-05-28 12:00:00,Synthetic paid media platform export
+2026-05-28|SMB|Paid Search|North America,2026-05-28,SMB,Paid Search,North America,74628,3212,12534.61,2026-05-29 12:00:00,Synthetic paid media platform export
+2026-05-28|SMB|Paid Search|EMEA,2026-05-28,SMB,Paid Search,EMEA,46224,1922,6781.11,2026-05-29 12:00:00,Synthetic paid media platform export
+2026-05-28|SMB|Paid Search|APAC,2026-05-28,SMB,Paid Search,APAC,45298,1840,5448.99,2026-05-29 12:00:00,Synthetic paid media platform export
+2026-05-28|Mid-Market|Paid Search|North America,2026-05-28,Mid-Market,Paid Search,North America,35640,1492,7392.69,2026-05-29 12:00:00,Synthetic paid media platform export
+2026-05-28|Mid-Market|Paid Search|EMEA,2026-05-28,Mid-Market,Paid Search,EMEA,25282,1044,4860.51,2026-05-29 12:00:00,Synthetic paid media platform export
+2026-05-28|Mid-Market|Paid Search|APAC,2026-05-28,Mid-Market,Paid Search,APAC,22335,893,3468.83,2026-05-29 12:00:00,Synthetic paid media platform export
+2026-05-28|Enterprise|Paid Search|North America,2026-05-28,Enterprise,Paid Search,North America,23594,933,6492.94,2026-05-29 12:00:00,Synthetic paid media platform export
+2026-05-28|Enterprise|Paid Search|EMEA,2026-05-28,Enterprise,Paid Search,EMEA,19167,744,4657.95,2026-05-29 12:00:00,Synthetic paid media platform export
+2026-05-28|Enterprise|Paid Search|APAC,2026-05-28,Enterprise,Paid Search,APAC,14421,543,2893.02,2026-05-29 12:00:00,Synthetic paid media platform export
+2026-05-29|SMB|Paid Search|North America,2026-05-29,SMB,Paid Search,North America,64850,2804,11119.3,2026-05-30 12:00:00,Synthetic paid media platform export
+2026-05-29|SMB|Paid Search|EMEA,2026-05-29,SMB,Paid Search,EMEA,47534,2011,7205.93,2026-05-30 12:00:00,Synthetic paid media platform export
+2026-05-29|SMB|Paid Search|APAC,2026-05-29,SMB,Paid Search,APAC,49785,2039,5898.36,2026-05-30 12:00:00,Synthetic paid media platform export
+2026-05-29|Mid-Market|Paid Search|North America,2026-05-29,Mid-Market,Paid Search,North America,35407,1478,7485.5,2026-05-30 12:00:00,Synthetic paid media platform export
+2026-05-29|Mid-Market|Paid Search|EMEA,2026-05-29,Mid-Market,Paid Search,EMEA,27876,1131,5297.12,2026-05-30 12:00:00,Synthetic paid media platform export
+2026-05-29|Mid-Market|Paid Search|APAC,2026-05-29,Mid-Market,Paid Search,APAC,19776,798,3026.62,2026-05-30 12:00:00,Synthetic paid media platform export
+2026-05-29|Enterprise|Paid Search|North America,2026-05-29,Enterprise,Paid Search,North America,22516,902,6176.08,2026-05-30 12:00:00,Synthetic paid media platform export
+2026-05-29|Enterprise|Paid Search|EMEA,2026-05-29,Enterprise,Paid Search,EMEA,18777,748,4745.85,2026-05-30 12:00:00,Synthetic paid media platform export
+2026-05-29|Enterprise|Paid Search|APAC,2026-05-29,Enterprise,Paid Search,APAC,14736,560,2960.25,2026-05-30 12:00:00,Synthetic paid media platform export
+2026-05-30|SMB|Paid Search|North America,2026-05-30,SMB,Paid Search,North America,51937,2220,8553.86,2026-05-31 12:00:00,Synthetic paid media platform export
+2026-05-30|SMB|Paid Search|EMEA,2026-05-30,SMB,Paid Search,EMEA,33303,1400,4845.56,2026-05-31 12:00:00,Synthetic paid media platform export
+2026-05-30|SMB|Paid Search|APAC,2026-05-30,SMB,Paid Search,APAC,39069,1576,4732.59,2026-05-31 12:00:00,Synthetic paid media platform export
+2026-05-30|Mid-Market|Paid Search|North America,2026-05-30,Mid-Market,Paid Search,North America,28012,1155,5969.44,2026-05-31 12:00:00,Synthetic paid media platform export
+2026-05-30|Mid-Market|Paid Search|EMEA,2026-05-30,Mid-Market,Paid Search,EMEA,20168,812,3780.83,2026-05-31 12:00:00,Synthetic paid media platform export
+2026-05-30|Mid-Market|Paid Search|APAC,2026-05-30,Mid-Market,Paid Search,APAC,17275,680,2685.74,2026-05-31 12:00:00,Synthetic paid media platform export
+2026-05-30|Enterprise|Paid Search|North America,2026-05-30,Enterprise,Paid Search,North America,19012,753,5222.45,2026-05-31 12:00:00,Synthetic paid media platform export
+2026-05-30|Enterprise|Paid Search|EMEA,2026-05-30,Enterprise,Paid Search,EMEA,13536,539,3302.25,2026-05-31 12:00:00,Synthetic paid media platform export
+2026-05-30|Enterprise|Paid Search|APAC,2026-05-30,Enterprise,Paid Search,APAC,13432,509,2586.88,2026-05-31 12:00:00,Synthetic paid media platform export
+2026-05-31|SMB|Paid Search|North America,2026-05-31,SMB,Paid Search,North America,56345,2438,9650.96,2026-06-01 12:00:00,Synthetic paid media platform export
+2026-05-31|SMB|Paid Search|EMEA,2026-05-31,SMB,Paid Search,EMEA,36814,1574,5452.01,2026-06-01 12:00:00,Synthetic paid media platform export
+2026-05-31|SMB|Paid Search|APAC,2026-05-31,SMB,Paid Search,APAC,35213,1464,4398.22,2026-06-01 12:00:00,Synthetic paid media platform export
+2026-05-31|Mid-Market|Paid Search|North America,2026-05-31,Mid-Market,Paid Search,North America,30768,1285,6568.64,2026-06-01 12:00:00,Synthetic paid media platform export
+2026-05-31|Mid-Market|Paid Search|EMEA,2026-05-31,Mid-Market,Paid Search,EMEA,20890,840,3784.97,2026-06-01 12:00:00,Synthetic paid media platform export
+2026-05-31|Mid-Market|Paid Search|APAC,2026-05-31,Mid-Market,Paid Search,APAC,16156,649,2498.26,2026-06-01 12:00:00,Synthetic paid media platform export
+2026-05-31|Enterprise|Paid Search|North America,2026-05-31,Enterprise,Paid Search,North America,15426,620,4191.37,2026-06-01 12:00:00,Synthetic paid media platform export
+2026-05-31|Enterprise|Paid Search|EMEA,2026-05-31,Enterprise,Paid Search,EMEA,13198,526,3192.77,2026-06-01 12:00:00,Synthetic paid media platform export
+2026-05-31|Enterprise|Paid Search|APAC,2026-05-31,Enterprise,Paid Search,APAC,12076,461,2452.62,2026-06-01 12:00:00,Synthetic paid media platform export
+2026-06-01|SMB|Paid Search|North America,2026-06-01,SMB,Paid Search,North America,63533,2715,10633.71,2026-06-02 12:00:00,Synthetic paid media platform export
+2026-06-01|SMB|Paid Search|EMEA,2026-06-01,SMB,Paid Search,EMEA,43842,1821,6342.49,2026-06-02 12:00:00,Synthetic paid media platform export
+2026-06-01|SMB|Paid Search|APAC,2026-06-01,SMB,Paid Search,APAC,41255,1680,4848.56,2026-06-02 12:00:00,Synthetic paid media platform export
+2026-06-01|Mid-Market|Paid Search|North America,2026-06-01,Mid-Market,Paid Search,North America,33027,1371,6911.91,2026-06-02 12:00:00,Synthetic paid media platform export
+2026-06-01|Mid-Market|Paid Search|EMEA,2026-06-01,Mid-Market,Paid Search,EMEA,26668,1085,5069.57,2026-06-02 12:00:00,Synthetic paid media platform export
+2026-06-01|Mid-Market|Paid Search|APAC,2026-06-01,Mid-Market,Paid Search,APAC,21778,864,3285.44,2026-06-02 12:00:00,Synthetic paid media platform export
+2026-06-01|Enterprise|Paid Search|North America,2026-06-01,Enterprise,Paid Search,North America,21752,873,5934.89,2026-06-02 12:00:00,Synthetic paid media platform export
+2026-06-01|Enterprise|Paid Search|EMEA,2026-06-01,Enterprise,Paid Search,EMEA,16386,639,3980.86,2026-06-02 12:00:00,Synthetic paid media platform export
+2026-06-01|Enterprise|Paid Search|APAC,2026-06-01,Enterprise,Paid Search,APAC,15492,584,2983.56,2026-06-02 12:00:00,Synthetic paid media platform export
+2026-06-02|SMB|Paid Search|North America,2026-06-02,SMB,Paid Search,North America,64869,2844,10750.89,2026-06-03 12:00:00,Synthetic paid media platform export
+2026-06-02|SMB|Paid Search|EMEA,2026-06-02,SMB,Paid Search,EMEA,40382,1711,5899.52,2026-06-03 12:00:00,Synthetic paid media platform export
+2026-06-02|SMB|Paid Search|APAC,2026-06-02,SMB,Paid Search,APAC,41799,1697,4928.19,2026-06-03 12:00:00,Synthetic paid media platform export
+2026-06-02|Mid-Market|Paid Search|North America,2026-06-02,Mid-Market,Paid Search,North America,36190,1532,7777.13,2026-06-03 12:00:00,Synthetic paid media platform export
+2026-06-02|Mid-Market|Paid Search|EMEA,2026-06-02,Mid-Market,Paid Search,EMEA,23849,982,4472.17,2026-06-03 12:00:00,Synthetic paid media platform export
+2026-06-02|Mid-Market|Paid Search|APAC,2026-06-02,Mid-Market,Paid Search,APAC,20430,817,3136.28,2026-06-03 12:00:00,Synthetic paid media platform export
+2026-06-02|Enterprise|Paid Search|North America,2026-06-02,Enterprise,Paid Search,North America,26314,1070,7188.18,2026-06-03 12:00:00,Synthetic paid media platform export
+2026-06-02|Enterprise|Paid Search|EMEA,2026-06-02,Enterprise,Paid Search,EMEA,18626,727,4413.39,2026-06-03 12:00:00,Synthetic paid media platform export
+2026-06-02|Enterprise|Paid Search|APAC,2026-06-02,Enterprise,Paid Search,APAC,15048,586,3040.74,2026-06-03 12:00:00,Synthetic paid media platform export
+2026-06-03|SMB|Paid Search|North America,2026-06-03,SMB,Paid Search,North America,73013,3173,12001.03,2026-06-04 12:00:00,Synthetic paid media platform export
+2026-06-03|SMB|Paid Search|EMEA,2026-06-03,SMB,Paid Search,EMEA,50403,2165,7686.05,2026-06-04 12:00:00,Synthetic paid media platform export
+2026-06-03|SMB|Paid Search|APAC,2026-06-03,SMB,Paid Search,APAC,45352,1859,5559.32,2026-06-04 12:00:00,Synthetic paid media platform export
+2026-06-03|Mid-Market|Paid Search|North America,2026-06-03,Mid-Market,Paid Search,North America,36210,1501,7739.58,2026-06-04 12:00:00,Synthetic paid media platform export
+2026-06-03|Mid-Market|Paid Search|EMEA,2026-06-03,Mid-Market,Paid Search,EMEA,28692,1180,5345.3,2026-06-04 12:00:00,Synthetic paid media platform export
+2026-06-03|Mid-Market|Paid Search|APAC,2026-06-03,Mid-Market,Paid Search,APAC,27304,1076,4064.99,2026-06-04 12:00:00,Synthetic paid media platform export
+2026-06-03|Enterprise|Paid Search|North America,2026-06-03,Enterprise,Paid Search,North America,22465,893,5976.06,2026-06-04 12:00:00,Synthetic paid media platform export
+2026-06-03|Enterprise|Paid Search|EMEA,2026-06-03,Enterprise,Paid Search,EMEA,18526,728,4575.99,2026-06-04 12:00:00,Synthetic paid media platform export
+2026-06-03|Enterprise|Paid Search|APAC,2026-06-03,Enterprise,Paid Search,APAC,17328,656,3488.02,2026-06-04 12:00:00,Synthetic paid media platform export
+2026-06-04|SMB|Paid Search|North America,2026-06-04,SMB,Paid Search,North America,68814,2997,11806.33,2026-06-05 12:00:00,Synthetic paid media platform export
+2026-06-04|SMB|Paid Search|EMEA,2026-06-04,SMB,Paid Search,EMEA,55007,2320,8080.55,2026-06-05 12:00:00,Synthetic paid media platform export
+2026-06-04|SMB|Paid Search|APAC,2026-06-04,SMB,Paid Search,APAC,38447,1593,4722.89,2026-06-05 12:00:00,Synthetic paid media platform export
+2026-06-04|Mid-Market|Paid Search|North America,2026-06-04,Mid-Market,Paid Search,North America,36352,1514,7748.43,2026-06-05 12:00:00,Synthetic paid media platform export
+2026-06-04|Mid-Market|Paid Search|EMEA,2026-06-04,Mid-Market,Paid Search,EMEA,25338,1048,4818.61,2026-06-05 12:00:00,Synthetic paid media platform export
+2026-06-04|Mid-Market|Paid Search|APAC,2026-06-04,Mid-Market,Paid Search,APAC,26204,1039,4099.63,2026-06-05 12:00:00,Synthetic paid media platform export
+2026-06-04|Enterprise|Paid Search|North America,2026-06-04,Enterprise,Paid Search,North America,27948,1102,7600.39,2026-06-05 12:00:00,Synthetic paid media platform export
+2026-06-04|Enterprise|Paid Search|EMEA,2026-06-04,Enterprise,Paid Search,EMEA,17663,701,4382.71,2026-06-05 12:00:00,Synthetic paid media platform export
+2026-06-04|Enterprise|Paid Search|APAC,2026-06-04,Enterprise,Paid Search,APAC,14370,540,2821.66,2026-06-05 12:00:00,Synthetic paid media platform export
+2026-06-05|SMB|Paid Search|North America,2026-06-05,SMB,Paid Search,North America,64140,2745,10482.28,2026-06-06 12:00:00,Synthetic paid media platform export
+2026-06-05|SMB|Paid Search|EMEA,2026-06-05,SMB,Paid Search,EMEA,50843,2149,7556.88,2026-06-06 12:00:00,Synthetic paid media platform export
+2026-06-05|SMB|Paid Search|APAC,2026-06-05,SMB,Paid Search,APAC,51251,2061,6194.77,2026-06-06 12:00:00,Synthetic paid media platform export
+2026-06-05|Mid-Market|Paid Search|North America,2026-06-05,Mid-Market,Paid Search,North America,36169,1506,7641.39,2026-06-06 12:00:00,Synthetic paid media platform export
+2026-06-05|Mid-Market|Paid Search|EMEA,2026-06-05,Mid-Market,Paid Search,EMEA,27682,1157,5209.54,2026-06-06 12:00:00,Synthetic paid media platform export
+2026-06-05|Mid-Market|Paid Search|APAC,2026-06-05,Mid-Market,Paid Search,APAC,22596,895,3399.52,2026-06-06 12:00:00,Synthetic paid media platform export
+2026-06-05|Enterprise|Paid Search|North America,2026-06-05,Enterprise,Paid Search,North America,22895,920,6325.33,2026-06-06 12:00:00,Synthetic paid media platform export
+2026-06-05|Enterprise|Paid Search|EMEA,2026-06-05,Enterprise,Paid Search,EMEA,18915,745,4564.23,2026-06-06 12:00:00,Synthetic paid media platform export
+2026-06-05|Enterprise|Paid Search|APAC,2026-06-05,Enterprise,Paid Search,APAC,17104,641,3315.27,2026-06-06 12:00:00,Synthetic paid media platform export
+2026-06-06|SMB|Paid Search|North America,2026-06-06,SMB,Paid Search,North America,56649,2411,9386.54,2026-06-07 12:00:00,Synthetic paid media platform export
+2026-06-06|SMB|Paid Search|EMEA,2026-06-06,SMB,Paid Search,EMEA,33625,1427,4914.3,2026-06-07 12:00:00,Synthetic paid media platform export
+2026-06-06|SMB|Paid Search|APAC,2026-06-06,SMB,Paid Search,APAC,37506,1522,4437.89,2026-06-07 12:00:00,Synthetic paid media platform export
+2026-06-06|Mid-Market|Paid Search|North America,2026-06-06,Mid-Market,Paid Search,North America,26566,1102,5450.92,2026-06-07 12:00:00,Synthetic paid media platform export
+2026-06-06|Mid-Market|Paid Search|EMEA,2026-06-06,Mid-Market,Paid Search,EMEA,22026,902,4063.14,2026-06-07 12:00:00,Synthetic paid media platform export
+2026-06-06|Mid-Market|Paid Search|APAC,2026-06-06,Mid-Market,Paid Search,APAC,17642,715,2752.06,2026-06-07 12:00:00,Synthetic paid media platform export
+2026-06-06|Enterprise|Paid Search|North America,2026-06-06,Enterprise,Paid Search,North America,19543,786,5454.6,2026-06-07 12:00:00,Synthetic paid media platform export
+2026-06-06|Enterprise|Paid Search|EMEA,2026-06-06,Enterprise,Paid Search,EMEA,13582,527,3190.1,2026-06-07 12:00:00,Synthetic paid media platform export
+2026-06-06|Enterprise|Paid Search|APAC,2026-06-06,Enterprise,Paid Search,APAC,10536,403,2125.86,2026-06-07 12:00:00,Synthetic paid media platform export
+2026-06-07|SMB|Paid Search|North America,2026-06-07,SMB,Paid Search,North America,53110,2287,9020.76,2026-06-08 12:00:00,Synthetic paid media platform export
+2026-06-07|SMB|Paid Search|EMEA,2026-06-07,SMB,Paid Search,EMEA,40117,1717,6159.37,2026-06-08 12:00:00,Synthetic paid media platform export
+2026-06-07|SMB|Paid Search|APAC,2026-06-07,SMB,Paid Search,APAC,30122,1232,3699.12,2026-06-08 12:00:00,Synthetic paid media platform export
+2026-06-07|Mid-Market|Paid Search|North America,2026-06-07,Mid-Market,Paid Search,North America,23727,997,5066.8,2026-06-08 12:00:00,Synthetic paid media platform export
+2026-06-07|Mid-Market|Paid Search|EMEA,2026-06-07,Mid-Market,Paid Search,EMEA,20890,844,3802.35,2026-06-08 12:00:00,Synthetic paid media platform export
+2026-06-07|Mid-Market|Paid Search|APAC,2026-06-07,Mid-Market,Paid Search,APAC,17851,699,2661.71,2026-06-08 12:00:00,Synthetic paid media platform export
+2026-06-07|Enterprise|Paid Search|North America,2026-06-07,Enterprise,Paid Search,North America,16483,667,4642.04,2026-06-08 12:00:00,Synthetic paid media platform export
+2026-06-07|Enterprise|Paid Search|EMEA,2026-06-07,Enterprise,Paid Search,EMEA,12813,512,3212.54,2026-06-08 12:00:00,Synthetic paid media platform export
+2026-06-07|Enterprise|Paid Search|APAC,2026-06-07,Enterprise,Paid Search,APAC,13975,527,2737.08,2026-06-08 12:00:00,Synthetic paid media platform export
+2026-06-08|SMB|Paid Search|North America,2026-06-08,SMB,Paid Search,North America,62770,2746,10461.58,2026-06-09 12:00:00,Synthetic paid media platform export
+2026-06-08|SMB|Paid Search|EMEA,2026-06-08,SMB,Paid Search,EMEA,46685,1998,7121.35,2026-06-09 12:00:00,Synthetic paid media platform export
+2026-06-08|SMB|Paid Search|APAC,2026-06-08,SMB,Paid Search,APAC,42082,1749,5149.58,2026-06-09 12:00:00,Synthetic paid media platform export
+2026-06-08|Mid-Market|Paid Search|North America,2026-06-08,Mid-Market,Paid Search,North America,37785,1593,8045.89,2026-06-09 12:00:00,Synthetic paid media platform export
+2026-06-08|Mid-Market|Paid Search|EMEA,2026-06-08,Mid-Market,Paid Search,EMEA,25562,1039,4863.53,2026-06-09 12:00:00,Synthetic paid media platform export
+2026-06-08|Mid-Market|Paid Search|APAC,2026-06-08,Mid-Market,Paid Search,APAC,23992,940,3631.18,2026-06-09 12:00:00,Synthetic paid media platform export
+2026-06-08|Enterprise|Paid Search|North America,2026-06-08,Enterprise,Paid Search,North America,25132,1000,6785.13,2026-06-09 12:00:00,Synthetic paid media platform export
+2026-06-08|Enterprise|Paid Search|EMEA,2026-06-08,Enterprise,Paid Search,EMEA,20392,803,4940.73,2026-06-09 12:00:00,Synthetic paid media platform export
+2026-06-08|Enterprise|Paid Search|APAC,2026-06-08,Enterprise,Paid Search,APAC,16387,630,3298.74,2026-06-09 12:00:00,Synthetic paid media platform export
+2026-06-09|SMB|Paid Search|North America,2026-06-09,SMB,Paid Search,North America,66384,2812,10781.98,2026-06-10 12:00:00,Synthetic paid media platform export
+2026-06-09|SMB|Paid Search|EMEA,2026-06-09,SMB,Paid Search,EMEA,53633,2255,8102.89,2026-06-10 12:00:00,Synthetic paid media platform export
+2026-06-09|SMB|Paid Search|APAC,2026-06-09,SMB,Paid Search,APAC,43091,1798,5375.19,2026-06-10 12:00:00,Synthetic paid media platform export
+2026-06-09|Mid-Market|Paid Search|North America,2026-06-09,Mid-Market,Paid Search,North America,37803,1573,7804.39,2026-06-10 12:00:00,Synthetic paid media platform export
+2026-06-09|Mid-Market|Paid Search|EMEA,2026-06-09,Mid-Market,Paid Search,EMEA,26545,1108,5151.47,2026-06-10 12:00:00,Synthetic paid media platform export
+2026-06-09|Mid-Market|Paid Search|APAC,2026-06-09,Mid-Market,Paid Search,APAC,21865,873,3309.2,2026-06-10 12:00:00,Synthetic paid media platform export
+2026-06-09|Enterprise|Paid Search|North America,2026-06-09,Enterprise,Paid Search,North America,23880,954,6348.68,2026-06-10 12:00:00,Synthetic paid media platform export
+2026-06-09|Enterprise|Paid Search|EMEA,2026-06-09,Enterprise,Paid Search,EMEA,18491,714,4499.28,2026-06-10 12:00:00,Synthetic paid media platform export
+2026-06-09|Enterprise|Paid Search|APAC,2026-06-09,Enterprise,Paid Search,APAC,15490,595,3109.74,2026-06-10 12:00:00,Synthetic paid media platform export
+2026-06-10|SMB|Paid Search|North America,2026-06-10,SMB,Paid Search,North America,68465,3008,11565.06,2026-06-11 12:00:00,Synthetic paid media platform export
+2026-06-10|SMB|Paid Search|EMEA,2026-06-10,SMB,Paid Search,EMEA,55741,2360,8127.4,2026-06-11 12:00:00,Synthetic paid media platform export
+2026-06-10|SMB|Paid Search|APAC,2026-06-10,SMB,Paid Search,APAC,45581,1884,5533.84,2026-06-11 12:00:00,Synthetic paid media platform export
+2026-06-10|Mid-Market|Paid Search|North America,2026-06-10,Mid-Market,Paid Search,North America,37326,1563,7878.02,2026-06-11 12:00:00,Synthetic paid media platform export
+2026-06-10|Mid-Market|Paid Search|EMEA,2026-06-10,Mid-Market,Paid Search,EMEA,28437,1173,5453.27,2026-06-11 12:00:00,Synthetic paid media platform export
+2026-06-10|Mid-Market|Paid Search|APAC,2026-06-10,Mid-Market,Paid Search,APAC,24014,962,3682.17,2026-06-11 12:00:00,Synthetic paid media platform export
+2026-06-10|Enterprise|Paid Search|North America,2026-06-10,Enterprise,Paid Search,North America,23214,948,6428.67,2026-06-11 12:00:00,Synthetic paid media platform export
+2026-06-10|Enterprise|Paid Search|EMEA,2026-06-10,Enterprise,Paid Search,EMEA,18291,708,4488.87,2026-06-11 12:00:00,Synthetic paid media platform export
+2026-06-10|Enterprise|Paid Search|APAC,2026-06-10,Enterprise,Paid Search,APAC,15473,597,3039.89,2026-06-11 12:00:00,Synthetic paid media platform export
+2026-06-11|SMB|Paid Search|North America,2026-06-11,SMB,Paid Search,North America,67451,2877,11355.77,2026-06-12 12:00:00,Synthetic paid media platform export
+2026-06-11|SMB|Paid Search|EMEA,2026-06-11,SMB,Paid Search,EMEA,57988,2426,8350.1,2026-06-12 12:00:00,Synthetic paid media platform export
+2026-06-11|SMB|Paid Search|APAC,2026-06-11,SMB,Paid Search,APAC,40960,1681,4964,2026-06-12 12:00:00,Synthetic paid media platform export
+2026-06-11|Mid-Market|Paid Search|North America,2026-06-11,Mid-Market,Paid Search,North America,36542,1535,7658.19,2026-06-12 12:00:00,Synthetic paid media platform export
+2026-06-11|Mid-Market|Paid Search|EMEA,2026-06-11,Mid-Market,Paid Search,EMEA,25737,1065,4913.07,2026-06-12 12:00:00,Synthetic paid media platform export
+2026-06-11|Mid-Market|Paid Search|APAC,2026-06-11,Mid-Market,Paid Search,APAC,25248,1010,3881.65,2026-06-12 12:00:00,Synthetic paid media platform export
+2026-06-11|Enterprise|Paid Search|North America,2026-06-11,Enterprise,Paid Search,North America,22947,926,6299.92,2026-06-12 12:00:00,Synthetic paid media platform export
+2026-06-11|Enterprise|Paid Search|EMEA,2026-06-11,Enterprise,Paid Search,EMEA,17819,697,4329.07,2026-06-12 12:00:00,Synthetic paid media platform export
+2026-06-11|Enterprise|Paid Search|APAC,2026-06-11,Enterprise,Paid Search,APAC,15901,619,3298.06,2026-06-12 12:00:00,Synthetic paid media platform export
+2026-06-12|SMB|Paid Search|North America,2026-06-12,SMB,Paid Search,North America,61264,2606,10129.05,2026-06-13 12:00:00,Synthetic paid media platform export
+2026-06-12|SMB|Paid Search|EMEA,2026-06-12,SMB,Paid Search,EMEA,53132,2252,8103.06,2026-06-13 12:00:00,Synthetic paid media platform export
+2026-06-12|SMB|Paid Search|APAC,2026-06-12,SMB,Paid Search,APAC,41110,1683,5064.44,2026-06-13 12:00:00,Synthetic paid media platform export
+2026-06-12|Mid-Market|Paid Search|North America,2026-06-12,Mid-Market,Paid Search,North America,38619,1612,7982.43,2026-06-13 12:00:00,Synthetic paid media platform export
+2026-06-12|Mid-Market|Paid Search|EMEA,2026-06-12,Mid-Market,Paid Search,EMEA,28824,1186,5390.01,2026-06-13 12:00:00,Synthetic paid media platform export
+2026-06-12|Mid-Market|Paid Search|APAC,2026-06-12,Mid-Market,Paid Search,APAC,21649,865,3364.09,2026-06-13 12:00:00,Synthetic paid media platform export
+2026-06-12|Enterprise|Paid Search|North America,2026-06-12,Enterprise,Paid Search,North America,27944,1109,7680.57,2026-06-13 12:00:00,Synthetic paid media platform export
+2026-06-12|Enterprise|Paid Search|EMEA,2026-06-12,Enterprise,Paid Search,EMEA,17931,696,4363.95,2026-06-13 12:00:00,Synthetic paid media platform export
+2026-06-12|Enterprise|Paid Search|APAC,2026-06-12,Enterprise,Paid Search,APAC,16244,630,3256.47,2026-06-13 12:00:00,Synthetic paid media platform export
+2026-06-13|SMB|Paid Search|North America,2026-06-13,SMB,Paid Search,North America,47078,2051,8000.46,2026-06-14 12:00:00,Synthetic paid media platform export
+2026-06-13|SMB|Paid Search|EMEA,2026-06-13,SMB,Paid Search,EMEA,37399,1597,5674.52,2026-06-14 12:00:00,Synthetic paid media platform export
+2026-06-13|SMB|Paid Search|APAC,2026-06-13,SMB,Paid Search,APAC,32938,1341,3988.29,2026-06-14 12:00:00,Synthetic paid media platform export
+2026-06-13|Mid-Market|Paid Search|North America,2026-06-13,Mid-Market,Paid Search,North America,27421,1125,5698.54,2026-06-14 12:00:00,Synthetic paid media platform export
+2026-06-13|Mid-Market|Paid Search|EMEA,2026-06-13,Mid-Market,Paid Search,EMEA,20396,840,3831.91,2026-06-14 12:00:00,Synthetic paid media platform export
+2026-06-13|Mid-Market|Paid Search|APAC,2026-06-13,Mid-Market,Paid Search,APAC,17920,717,2784.28,2026-06-14 12:00:00,Synthetic paid media platform export
+2026-06-13|Enterprise|Paid Search|North America,2026-06-13,Enterprise,Paid Search,North America,20356,813,5437.4,2026-06-14 12:00:00,Synthetic paid media platform export
+2026-06-13|Enterprise|Paid Search|EMEA,2026-06-13,Enterprise,Paid Search,EMEA,14492,578,3622.38,2026-06-14 12:00:00,Synthetic paid media platform export
+2026-06-13|Enterprise|Paid Search|APAC,2026-06-13,Enterprise,Paid Search,APAC,10487,402,2113.55,2026-06-14 12:00:00,Synthetic paid media platform export
+2026-06-14|SMB|Paid Search|North America,2026-06-14,SMB,Paid Search,North America,47636,2075,7975.93,2026-06-15 12:00:00,Synthetic paid media platform export
+2026-06-14|SMB|Paid Search|EMEA,2026-06-14,SMB,Paid Search,EMEA,39791,1659,5875.62,2026-06-15 12:00:00,Synthetic paid media platform export
+2026-06-14|SMB|Paid Search|APAC,2026-06-14,SMB,Paid Search,APAC,35400,1439,4155.76,2026-06-15 12:00:00,Synthetic paid media platform export
+2026-06-14|Mid-Market|Paid Search|North America,2026-06-14,Mid-Market,Paid Search,North America,27010,1139,5702.87,2026-06-15 12:00:00,Synthetic paid media platform export
+2026-06-14|Mid-Market|Paid Search|EMEA,2026-06-14,Mid-Market,Paid Search,EMEA,19566,809,3730.38,2026-06-15 12:00:00,Synthetic paid media platform export
+2026-06-14|Mid-Market|Paid Search|APAC,2026-06-14,Mid-Market,Paid Search,APAC,15126,612,2403.97,2026-06-15 12:00:00,Synthetic paid media platform export
+2026-06-14|Enterprise|Paid Search|North America,2026-06-14,Enterprise,Paid Search,North America,15933,650,4383.9,2026-06-15 12:00:00,Synthetic paid media platform export
+2026-06-14|Enterprise|Paid Search|EMEA,2026-06-14,Enterprise,Paid Search,EMEA,13731,548,3319.31,2026-06-15 12:00:00,Synthetic paid media platform export
+2026-06-14|Enterprise|Paid Search|APAC,2026-06-14,Enterprise,Paid Search,APAC,11764,448,2298.52,2026-06-15 12:00:00,Synthetic paid media platform export
+2026-06-15|SMB|Paid Search|North America,2026-06-15,SMB,Paid Search,North America,58583,2532,9744.57,2026-06-16 12:00:00,Synthetic paid media platform export
+2026-06-15|SMB|Paid Search|EMEA,2026-06-15,SMB,Paid Search,EMEA,51421,2201,7702.65,2026-06-16 12:00:00,Synthetic paid media platform export
+2026-06-15|SMB|Paid Search|APAC,2026-06-15,SMB,Paid Search,APAC,46510,1920,5695.11,2026-06-16 12:00:00,Synthetic paid media platform export
+2026-06-15|Mid-Market|Paid Search|North America,2026-06-15,Mid-Market,Paid Search,North America,33729,1432,7246.63,2026-06-16 12:00:00,Synthetic paid media platform export
+2026-06-15|Mid-Market|Paid Search|EMEA,2026-06-15,Mid-Market,Paid Search,EMEA,25207,1021,4713.28,2026-06-16 12:00:00,Synthetic paid media platform export
+2026-06-15|Mid-Market|Paid Search|APAC,2026-06-15,Mid-Market,Paid Search,APAC,26523,1038,3976.4,2026-06-16 12:00:00,Synthetic paid media platform export
+2026-06-15|Enterprise|Paid Search|North America,2026-06-15,Enterprise,Paid Search,North America,27737,1096,7379.27,2026-06-16 12:00:00,Synthetic paid media platform export
+2026-06-15|Enterprise|Paid Search|EMEA,2026-06-15,Enterprise,Paid Search,EMEA,15583,614,3826.15,2026-06-16 12:00:00,Synthetic paid media platform export
+2026-06-15|Enterprise|Paid Search|APAC,2026-06-15,Enterprise,Paid Search,APAC,16585,627,3232,2026-06-16 12:00:00,Synthetic paid media platform export
+2026-06-16|SMB|Paid Search|North America,2026-06-16,SMB,Paid Search,North America,62595,2681,10390.86,2026-06-17 12:00:00,Synthetic paid media platform export
+2026-06-16|SMB|Paid Search|EMEA,2026-06-16,SMB,Paid Search,EMEA,49347,2077,7446.34,2026-06-17 12:00:00,Synthetic paid media platform export
+2026-06-16|SMB|Paid Search|APAC,2026-06-16,SMB,Paid Search,APAC,44282,1793,5211.3,2026-06-17 12:00:00,Synthetic paid media platform export
+2026-06-16|Mid-Market|Paid Search|North America,2026-06-16,Mid-Market,Paid Search,North America,40148,1692,8427.69,2026-06-17 12:00:00,Synthetic paid media platform export
+2026-06-16|Mid-Market|Paid Search|EMEA,2026-06-16,Mid-Market,Paid Search,EMEA,31857,1306,6113.64,2026-06-17 12:00:00,Synthetic paid media platform export
+2026-06-16|Mid-Market|Paid Search|APAC,2026-06-16,Mid-Market,Paid Search,APAC,23628,931,3564.66,2026-06-17 12:00:00,Synthetic paid media platform export
+2026-06-16|Enterprise|Paid Search|North America,2026-06-16,Enterprise,Paid Search,North America,24807,987,6894.99,2026-06-17 12:00:00,Synthetic paid media platform export
+2026-06-16|Enterprise|Paid Search|EMEA,2026-06-16,Enterprise,Paid Search,EMEA,19353,763,4672.22,2026-06-17 12:00:00,Synthetic paid media platform export
+2026-06-16|Enterprise|Paid Search|APAC,2026-06-16,Enterprise,Paid Search,APAC,16667,649,3331.23,2026-06-17 12:00:00,Synthetic paid media platform export
+2026-06-17|SMB|Paid Search|North America,2026-06-17,SMB,Paid Search,North America,69682,2945,11339.21,2026-06-18 12:00:00,Synthetic paid media platform export
+2026-06-17|SMB|Paid Search|EMEA,2026-06-17,SMB,Paid Search,EMEA,49571,2063,7211.55,2026-06-18 12:00:00,Synthetic paid media platform export
+2026-06-17|SMB|Paid Search|APAC,2026-06-17,SMB,Paid Search,APAC,42121,1753,5281.12,2026-06-18 12:00:00,Synthetic paid media platform export
+2026-06-17|Mid-Market|Paid Search|North America,2026-06-17,Mid-Market,Paid Search,North America,38905,1654,8246.83,2026-06-18 12:00:00,Synthetic paid media platform export
+2026-06-17|Mid-Market|Paid Search|EMEA,2026-06-17,Mid-Market,Paid Search,EMEA,28892,1192,5547.04,2026-06-18 12:00:00,Synthetic paid media platform export
+2026-06-17|Mid-Market|Paid Search|APAC,2026-06-17,Mid-Market,Paid Search,APAC,21783,880,3345.93,2026-06-18 12:00:00,Synthetic paid media platform export
+2026-06-17|Enterprise|Paid Search|North America,2026-06-17,Enterprise,Paid Search,North America,24954,1016,6772.33,2026-06-18 12:00:00,Synthetic paid media platform export
+2026-06-17|Enterprise|Paid Search|EMEA,2026-06-17,Enterprise,Paid Search,EMEA,20242,792,4879.69,2026-06-18 12:00:00,Synthetic paid media platform export
+2026-06-17|Enterprise|Paid Search|APAC,2026-06-17,Enterprise,Paid Search,APAC,15548,604,3208.56,2026-06-18 12:00:00,Synthetic paid media platform export
+2026-06-18|SMB|Paid Search|North America,2026-06-18,SMB,Paid Search,North America,62904,2711,10374.2,2026-06-19 12:00:00,Synthetic paid media platform export
+2026-06-18|SMB|Paid Search|EMEA,2026-06-18,SMB,Paid Search,EMEA,52956,2276,8025.27,2026-06-19 12:00:00,Synthetic paid media platform export
+2026-06-18|SMB|Paid Search|APAC,2026-06-18,SMB,Paid Search,APAC,41820,1741,5118.4,2026-06-19 12:00:00,Synthetic paid media platform export
+2026-06-18|Mid-Market|Paid Search|North America,2026-06-18,Mid-Market,Paid Search,North America,41434,1700,8727.37,2026-06-19 12:00:00,Synthetic paid media platform export
+2026-06-18|Mid-Market|Paid Search|EMEA,2026-06-18,Mid-Market,Paid Search,EMEA,28189,1135,5261.14,2026-06-19 12:00:00,Synthetic paid media platform export
+2026-06-18|Mid-Market|Paid Search|APAC,2026-06-18,Mid-Market,Paid Search,APAC,23046,921,3619.76,2026-06-19 12:00:00,Synthetic paid media platform export
+2026-06-18|Enterprise|Paid Search|North America,2026-06-18,Enterprise,Paid Search,North America,23966,972,6629.64,2026-06-19 12:00:00,Synthetic paid media platform export
+2026-06-18|Enterprise|Paid Search|EMEA,2026-06-18,Enterprise,Paid Search,EMEA,17778,701,4307.66,2026-06-19 12:00:00,Synthetic paid media platform export
+2026-06-18|Enterprise|Paid Search|APAC,2026-06-18,Enterprise,Paid Search,APAC,14846,570,2946.62,2026-06-19 12:00:00,Synthetic paid media platform export
+2026-06-19|SMB|Paid Search|North America,2026-06-19,SMB,Paid Search,North America,61110,2655,10467.2,2026-06-20 12:00:00,Synthetic paid media platform export
+2026-06-19|SMB|Paid Search|EMEA,2026-06-19,SMB,Paid Search,EMEA,44419,1874,6674.28,2026-06-20 12:00:00,Synthetic paid media platform export
+2026-06-19|SMB|Paid Search|APAC,2026-06-19,SMB,Paid Search,APAC,42437,1740,5159.21,2026-06-20 12:00:00,Synthetic paid media platform export
+2026-06-19|Mid-Market|Paid Search|North America,2026-06-19,Mid-Market,Paid Search,North America,34200,1431,7277.5,2026-06-20 12:00:00,Synthetic paid media platform export
+2026-06-19|Mid-Market|Paid Search|EMEA,2026-06-19,Mid-Market,Paid Search,EMEA,29435,1207,5535.2,2026-06-20 12:00:00,Synthetic paid media platform export
+2026-06-19|Mid-Market|Paid Search|APAC,2026-06-19,Mid-Market,Paid Search,APAC,22866,900,3526.94,2026-06-20 12:00:00,Synthetic paid media platform export
+2026-06-19|Enterprise|Paid Search|North America,2026-06-19,Enterprise,Paid Search,North America,22830,928,6429.98,2026-06-20 12:00:00,Synthetic paid media platform export
+2026-06-19|Enterprise|Paid Search|EMEA,2026-06-19,Enterprise,Paid Search,EMEA,15871,629,3990.63,2026-06-20 12:00:00,Synthetic paid media platform export
+2026-06-19|Enterprise|Paid Search|APAC,2026-06-19,Enterprise,Paid Search,APAC,14437,544,2781.93,2026-06-20 12:00:00,Synthetic paid media platform export
+2026-06-20|SMB|Paid Search|North America,2026-06-20,SMB,Paid Search,North America,55429,2362,8959.33,2026-06-21 12:00:00,Synthetic paid media platform export
+2026-06-20|SMB|Paid Search|EMEA,2026-06-20,SMB,Paid Search,EMEA,38869,1651,5820.97,2026-06-21 12:00:00,Synthetic paid media platform export
+2026-06-20|SMB|Paid Search|APAC,2026-06-20,SMB,Paid Search,APAC,32521,1345,3937.79,2026-06-21 12:00:00,Synthetic paid media platform export
+2026-06-20|Mid-Market|Paid Search|North America,2026-06-20,Mid-Market,Paid Search,North America,28015,1150,5912.08,2026-06-21 12:00:00,Synthetic paid media platform export
+2026-06-20|Mid-Market|Paid Search|EMEA,2026-06-20,Mid-Market,Paid Search,EMEA,19703,820,3799.77,2026-06-21 12:00:00,Synthetic paid media platform export
+2026-06-20|Mid-Market|Paid Search|APAC,2026-06-20,Mid-Market,Paid Search,APAC,18230,735,2796.54,2026-06-21 12:00:00,Synthetic paid media platform export
+2026-06-20|Enterprise|Paid Search|North America,2026-06-20,Enterprise,Paid Search,North America,19815,801,5532.41,2026-06-21 12:00:00,Synthetic paid media platform export
+2026-06-20|Enterprise|Paid Search|EMEA,2026-06-20,Enterprise,Paid Search,EMEA,14452,578,3593.69,2026-06-21 12:00:00,Synthetic paid media platform export
+2026-06-20|Enterprise|Paid Search|APAC,2026-06-20,Enterprise,Paid Search,APAC,11571,438,2328.77,2026-06-21 12:00:00,Synthetic paid media platform export
+2026-06-21|SMB|Paid Search|North America,2026-06-21,SMB,Paid Search,North America,61338,2691,10451.91,2026-06-22 12:00:00,Synthetic paid media platform export
+2026-06-21|SMB|Paid Search|EMEA,2026-06-21,SMB,Paid Search,EMEA,34198,1466,5118.5,2026-06-22 12:00:00,Synthetic paid media platform export
+2026-06-21|SMB|Paid Search|APAC,2026-06-21,SMB,Paid Search,APAC,33011,1368,4060.8,2026-06-22 12:00:00,Synthetic paid media platform export
+2026-06-21|Mid-Market|Paid Search|North America,2026-06-21,Mid-Market,Paid Search,North America,27816,1144,5785.73,2026-06-22 12:00:00,Synthetic paid media platform export
+2026-06-21|Mid-Market|Paid Search|EMEA,2026-06-21,Mid-Market,Paid Search,EMEA,22242,906,4078.19,2026-06-22 12:00:00,Synthetic paid media platform export
+2026-06-21|Mid-Market|Paid Search|APAC,2026-06-21,Mid-Market,Paid Search,APAC,17352,684,2655.71,2026-06-22 12:00:00,Synthetic paid media platform export
+2026-06-21|Enterprise|Paid Search|North America,2026-06-21,Enterprise,Paid Search,North America,18531,752,5084.37,2026-06-22 12:00:00,Synthetic paid media platform export
+2026-06-21|Enterprise|Paid Search|EMEA,2026-06-21,Enterprise,Paid Search,EMEA,14042,548,3362.57,2026-06-22 12:00:00,Synthetic paid media platform export
+2026-06-21|Enterprise|Paid Search|APAC,2026-06-21,Enterprise,Paid Search,APAC,13216,512,2630.85,2026-06-22 12:00:00,Synthetic paid media platform export
+2026-06-22|SMB|Paid Search|North America,2026-06-22,SMB,Paid Search,North America,65948,2819,10939.17,2026-06-23 12:00:00,Synthetic paid media platform export
+2026-06-22|SMB|Paid Search|EMEA,2026-06-22,SMB,Paid Search,EMEA,52150,2165,7612.93,2026-06-23 12:00:00,Synthetic paid media platform export
+2026-06-22|SMB|Paid Search|APAC,2026-06-22,SMB,Paid Search,APAC,47058,1965,5679.03,2026-06-23 12:00:00,Synthetic paid media platform export
+2026-06-22|Mid-Market|Paid Search|North America,2026-06-22,Mid-Market,Paid Search,North America,33110,1407,6974.26,2026-06-23 12:00:00,Synthetic paid media platform export
+2026-06-22|Mid-Market|Paid Search|EMEA,2026-06-22,Mid-Market,Paid Search,EMEA,25981,1081,4934.08,2026-06-23 12:00:00,Synthetic paid media platform export
+2026-06-22|Mid-Market|Paid Search|APAC,2026-06-22,Mid-Market,Paid Search,APAC,23491,939,3585.7,2026-06-23 12:00:00,Synthetic paid media platform export
+2026-06-22|Enterprise|Paid Search|North America,2026-06-22,Enterprise,Paid Search,North America,21159,846,5823.83,2026-06-23 12:00:00,Synthetic paid media platform export
+2026-06-22|Enterprise|Paid Search|EMEA,2026-06-22,Enterprise,Paid Search,EMEA,16924,654,4064.61,2026-06-23 12:00:00,Synthetic paid media platform export
+2026-06-22|Enterprise|Paid Search|APAC,2026-06-22,Enterprise,Paid Search,APAC,15463,584,3003.63,2026-06-23 12:00:00,Synthetic paid media platform export
+2026-06-23|SMB|Paid Search|North America,2026-06-23,SMB,Paid Search,North America,67284,2922,11379.73,2026-06-24 12:00:00,Synthetic paid media platform export
+2026-06-23|SMB|Paid Search|EMEA,2026-06-23,SMB,Paid Search,EMEA,53226,2247,7876.79,2026-06-24 12:00:00,Synthetic paid media platform export
+2026-06-23|SMB|Paid Search|APAC,2026-06-23,SMB,Paid Search,APAC,43211,1782,5368.22,2026-06-24 12:00:00,Synthetic paid media platform export
+2026-06-23|Mid-Market|Paid Search|North America,2026-06-23,Mid-Market,Paid Search,North America,37518,1577,7811.81,2026-06-24 12:00:00,Synthetic paid media platform export
+2026-06-23|Mid-Market|Paid Search|EMEA,2026-06-23,Mid-Market,Paid Search,EMEA,27573,1148,5384,2026-06-24 12:00:00,Synthetic paid media platform export
+2026-06-23|Mid-Market|Paid Search|APAC,2026-06-23,Mid-Market,Paid Search,APAC,21062,826,3171.24,2026-06-24 12:00:00,Synthetic paid media platform export
+2026-06-23|Enterprise|Paid Search|North America,2026-06-23,Enterprise,Paid Search,North America,26135,1041,7024.19,2026-06-24 12:00:00,Synthetic paid media platform export
+2026-06-23|Enterprise|Paid Search|EMEA,2026-06-23,Enterprise,Paid Search,EMEA,20229,811,5027.1,2026-06-24 12:00:00,Synthetic paid media platform export
+2026-06-23|Enterprise|Paid Search|APAC,2026-06-23,Enterprise,Paid Search,APAC,17085,662,3470.41,2026-06-24 12:00:00,Synthetic paid media platform export
+2026-06-24|SMB|Paid Search|North America,2026-06-24,SMB,Paid Search,North America,72767,3110,12331.53,2026-06-25 12:00:00,Synthetic paid media platform export
+2026-06-24|SMB|Paid Search|EMEA,2026-06-24,SMB,Paid Search,EMEA,59304,2489,8788.43,2026-06-25 12:00:00,Synthetic paid media platform export
+2026-06-24|SMB|Paid Search|APAC,2026-06-24,SMB,Paid Search,APAC,49145,2052,5929.32,2026-06-25 12:00:00,Synthetic paid media platform export
+2026-06-24|Mid-Market|Paid Search|North America,2026-06-24,Mid-Market,Paid Search,North America,35424,1505,7527.11,2026-06-25 12:00:00,Synthetic paid media platform export
+2026-06-24|Mid-Market|Paid Search|EMEA,2026-06-24,Mid-Market,Paid Search,EMEA,26781,1100,5139.26,2026-06-25 12:00:00,Synthetic paid media platform export
+2026-06-24|Mid-Market|Paid Search|APAC,2026-06-24,Mid-Market,Paid Search,APAC,23319,917,3598.36,2026-06-25 12:00:00,Synthetic paid media platform export
+2026-06-24|Enterprise|Paid Search|North America,2026-06-24,Enterprise,Paid Search,North America,26847,1093,7496.03,2026-06-25 12:00:00,Synthetic paid media platform export
+2026-06-24|Enterprise|Paid Search|EMEA,2026-06-24,Enterprise,Paid Search,EMEA,18143,722,4516.84,2026-06-25 12:00:00,Synthetic paid media platform export
+2026-06-24|Enterprise|Paid Search|APAC,2026-06-24,Enterprise,Paid Search,APAC,17120,666,3479.82,2026-06-25 12:00:00,Synthetic paid media platform export
+2026-06-25|SMB|Paid Search|North America,2026-06-25,SMB,Paid Search,North America,63843,2781,10787.29,2026-06-26 12:00:00,Synthetic paid media platform export
+2026-06-25|SMB|Paid Search|EMEA,2026-06-25,SMB,Paid Search,EMEA,52729,2188,7714.18,2026-06-26 12:00:00,Synthetic paid media platform export
+2026-06-25|SMB|Paid Search|APAC,2026-06-25,SMB,Paid Search,APAC,48289,1967,5785.44,2026-06-26 12:00:00,Synthetic paid media platform export
+2026-06-25|Mid-Market|Paid Search|North America,2026-06-25,Mid-Market,Paid Search,North America,34877,1456,7402.73,2026-06-26 12:00:00,Synthetic paid media platform export
+2026-06-25|Mid-Market|Paid Search|EMEA,2026-06-25,Mid-Market,Paid Search,EMEA,28313,1141,5152.02,2026-06-26 12:00:00,Synthetic paid media platform export
+2026-06-25|Mid-Market|Paid Search|APAC,2026-06-25,Mid-Market,Paid Search,APAC,26944,1069,4226.97,2026-06-26 12:00:00,Synthetic paid media platform export
+2026-06-25|Enterprise|Paid Search|North America,2026-06-25,Enterprise,Paid Search,North America,23728,961,6544.32,2026-06-26 12:00:00,Synthetic paid media platform export
+2026-06-25|Enterprise|Paid Search|EMEA,2026-06-25,Enterprise,Paid Search,EMEA,21589,840,5133.91,2026-06-26 12:00:00,Synthetic paid media platform export
+2026-06-25|Enterprise|Paid Search|APAC,2026-06-25,Enterprise,Paid Search,APAC,16968,657,3406.57,2026-06-26 12:00:00,Synthetic paid media platform export
+2026-06-26|SMB|Paid Search|North America,2026-06-26,SMB,Paid Search,North America,63750,2761,10675.61,2026-06-27 12:00:00,Synthetic paid media platform export
+2026-06-26|SMB|Paid Search|EMEA,2026-06-26,SMB,Paid Search,EMEA,48220,2029,7226.06,2026-06-27 12:00:00,Synthetic paid media platform export
+2026-06-26|SMB|Paid Search|APAC,2026-06-26,SMB,Paid Search,APAC,38499,1570,4721.97,2026-06-27 12:00:00,Synthetic paid media platform export
+2026-06-26|Mid-Market|Paid Search|North America,2026-06-26,Mid-Market,Paid Search,North America,35786,1473,7451.96,2026-06-27 12:00:00,Synthetic paid media platform export
+2026-06-26|Mid-Market|Paid Search|EMEA,2026-06-26,Mid-Market,Paid Search,EMEA,33770,1379,6204.49,2026-06-27 12:00:00,Synthetic paid media platform export
+2026-06-26|Mid-Market|Paid Search|APAC,2026-06-26,Mid-Market,Paid Search,APAC,22420,891,3466.32,2026-06-27 12:00:00,Synthetic paid media platform export
+2026-06-26|Enterprise|Paid Search|North America,2026-06-26,Enterprise,Paid Search,North America,24252,992,6904.54,2026-06-27 12:00:00,Synthetic paid media platform export
+2026-06-26|Enterprise|Paid Search|EMEA,2026-06-26,Enterprise,Paid Search,EMEA,18453,721,4525.23,2026-06-27 12:00:00,Synthetic paid media platform export
+2026-06-26|Enterprise|Paid Search|APAC,2026-06-26,Enterprise,Paid Search,APAC,17241,648,3424.58,2026-06-27 12:00:00,Synthetic paid media platform export
+2026-06-27|SMB|Paid Search|North America,2026-06-27,SMB,Paid Search,North America,55790,2403,9296.6,2026-06-28 12:00:00,Synthetic paid media platform export
+2026-06-27|SMB|Paid Search|EMEA,2026-06-27,SMB,Paid Search,EMEA,43831,1824,6541.64,2026-06-28 12:00:00,Synthetic paid media platform export
+2026-06-27|SMB|Paid Search|APAC,2026-06-27,SMB,Paid Search,APAC,36076,1499,4380.84,2026-06-28 12:00:00,Synthetic paid media platform export
+2026-06-27|Mid-Market|Paid Search|North America,2026-06-27,Mid-Market,Paid Search,North America,26314,1122,5663.99,2026-06-28 12:00:00,Synthetic paid media platform export
+2026-06-27|Mid-Market|Paid Search|EMEA,2026-06-27,Mid-Market,Paid Search,EMEA,20298,838,3892.53,2026-06-28 12:00:00,Synthetic paid media platform export
+2026-06-27|Mid-Market|Paid Search|APAC,2026-06-27,Mid-Market,Paid Search,APAC,20332,813,3067.84,2026-06-28 12:00:00,Synthetic paid media platform export
+2026-06-27|Enterprise|Paid Search|North America,2026-06-27,Enterprise,Paid Search,North America,19810,793,5440.02,2026-06-28 12:00:00,Synthetic paid media platform export
+2026-06-27|Enterprise|Paid Search|EMEA,2026-06-27,Enterprise,Paid Search,EMEA,13996,552,3435.45,2026-06-28 12:00:00,Synthetic paid media platform export
+2026-06-27|Enterprise|Paid Search|APAC,2026-06-27,Enterprise,Paid Search,APAC,12767,479,2447.21,2026-06-28 12:00:00,Synthetic paid media platform export
+2026-06-28|SMB|Paid Search|North America,2026-06-28,SMB,Paid Search,North America,49079,2124,8375.33,2026-06-29 12:00:00,Synthetic paid media platform export
+2026-06-28|SMB|Paid Search|EMEA,2026-06-28,SMB,Paid Search,EMEA,35158,1479,5236.72,2026-06-29 12:00:00,Synthetic paid media platform export
+2026-06-28|SMB|Paid Search|APAC,2026-06-28,SMB,Paid Search,APAC,34410,1405,4126.89,2026-06-29 12:00:00,Synthetic paid media platform export
+2026-06-28|Mid-Market|Paid Search|North America,2026-06-28,Mid-Market,Paid Search,North America,24610,1027,5313.43,2026-06-29 12:00:00,Synthetic paid media platform export
+2026-06-28|Mid-Market|Paid Search|EMEA,2026-06-28,Mid-Market,Paid Search,EMEA,19224,780,3555.35,2026-06-29 12:00:00,Synthetic paid media platform export
+2026-06-28|Mid-Market|Paid Search|APAC,2026-06-28,Mid-Market,Paid Search,APAC,18313,734,2765.82,2026-06-29 12:00:00,Synthetic paid media platform export
+2026-06-28|Enterprise|Paid Search|North America,2026-06-28,Enterprise,Paid Search,North America,17498,699,4796.79,2026-06-29 12:00:00,Synthetic paid media platform export
+2026-06-28|Enterprise|Paid Search|EMEA,2026-06-28,Enterprise,Paid Search,EMEA,13902,544,3354,2026-06-29 12:00:00,Synthetic paid media platform export
+2026-06-28|Enterprise|Paid Search|APAC,2026-06-28,Enterprise,Paid Search,APAC,12995,495,2567.29,2026-06-29 12:00:00,Synthetic paid media platform export
+2026-06-29|SMB|Paid Search|North America,2026-06-29,SMB,Paid Search,North America,70653,3001,11698.4,2026-06-30 12:00:00,Synthetic paid media platform export
+2026-06-29|SMB|Paid Search|EMEA,2026-06-29,SMB,Paid Search,EMEA,48171,2014,6924.06,2026-06-30 12:00:00,Synthetic paid media platform export
+2026-06-29|SMB|Paid Search|APAC,2026-06-29,SMB,Paid Search,APAC,42133,1710,5159.26,2026-06-30 12:00:00,Synthetic paid media platform export
+2026-06-29|Mid-Market|Paid Search|North America,2026-06-29,Mid-Market,Paid Search,North America,34488,1469,7588.23,2026-06-30 12:00:00,Synthetic paid media platform export
+2026-06-29|Mid-Market|Paid Search|EMEA,2026-06-29,Mid-Market,Paid Search,EMEA,24134,999,4636.7,2026-06-30 12:00:00,Synthetic paid media platform export
+2026-06-29|Mid-Market|Paid Search|APAC,2026-06-29,Mid-Market,Paid Search,APAC,24574,963,3698.58,2026-06-30 12:00:00,Synthetic paid media platform export
+2026-06-29|Enterprise|Paid Search|North America,2026-06-29,Enterprise,Paid Search,North America,26928,1092,7413.72,2026-06-30 12:00:00,Synthetic paid media platform export
+2026-06-29|Enterprise|Paid Search|EMEA,2026-06-29,Enterprise,Paid Search,EMEA,18698,725,4498.71,2026-06-30 12:00:00,Synthetic paid media platform export
+2026-06-29|Enterprise|Paid Search|APAC,2026-06-29,Enterprise,Paid Search,APAC,14341,549,2818.21,2026-06-30 12:00:00,Synthetic paid media platform export
+2026-06-30|SMB|Paid Search|North America,2026-06-30,SMB,Paid Search,North America,71961,3123,11784.86,2026-07-01 12:00:00,Synthetic paid media platform export
+2026-06-30|SMB|Paid Search|EMEA,2026-06-30,SMB,Paid Search,EMEA,52771,2250,8091.89,2026-07-01 12:00:00,Synthetic paid media platform export
+2026-06-30|SMB|Paid Search|APAC,2026-06-30,SMB,Paid Search,APAC,37814,1549,4524.24,2026-07-01 12:00:00,Synthetic paid media platform export
+2026-06-30|Mid-Market|Paid Search|North America,2026-06-30,Mid-Market,Paid Search,North America,35080,1471,7622.86,2026-07-01 12:00:00,Synthetic paid media platform export
+2026-06-30|Mid-Market|Paid Search|EMEA,2026-06-30,Mid-Market,Paid Search,EMEA,31004,1252,5673.65,2026-07-01 12:00:00,Synthetic paid media platform export
+2026-06-30|Mid-Market|Paid Search|APAC,2026-06-30,Mid-Market,Paid Search,APAC,22092,876,3443.15,2026-07-01 12:00:00,Synthetic paid media platform export
+2026-06-30|Enterprise|Paid Search|North America,2026-06-30,Enterprise,Paid Search,North America,24472,988,6718.19,2026-07-01 12:00:00,Synthetic paid media platform export
+2026-06-30|Enterprise|Paid Search|EMEA,2026-06-30,Enterprise,Paid Search,EMEA,18507,736,4467.9,2026-07-01 12:00:00,Synthetic paid media platform export
+2026-06-30|Enterprise|Paid Search|APAC,2026-06-30,Enterprise,Paid Search,APAC,15646,609,3222.25,2026-07-01 12:00:00,Synthetic paid media platform export
+2026-05-20|SMB|Paid Search|North America,2026-05-20,SMB,Paid Search,North America,60769,2619,10201.26,2026-05-22 12:00:00,Synthetic paid media platform export

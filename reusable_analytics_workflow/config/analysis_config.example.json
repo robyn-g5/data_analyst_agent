@@ -1,0 +1,43 @@
+{
+  "project": {
+    "title": "Executive Growth & Paid Media Dashboard",
+    "audience": "CEO and board",
+    "business_question": "Is growth improving month over month, and where should paid-media spend focus?",
+    "comparison_rule": "Use trajectory and month-over-month performance; normalize daily concepts for month length.",
+    "currency": "USD"
+  },
+  "files": {
+    "paid_media": "*paid_media*.csv",
+    "growth_funnel": "*growth_funnel*.csv",
+    "product_usage": "*product_usage*.csv"
+  },
+  "columns": {
+    "record_id": "record_id",
+    "date": "date",
+    "loaded_at": "data_loaded_at",
+    "segment": "customer_segment",
+    "channel": "acquisition_channel",
+    "region": "region",
+    "trials": "trials_started",
+    "subscriptions": "paid_conversions",
+    "active_users": "active_users",
+    "sessions": "sessions",
+    "feature_adoptions": "feature_adoptions",
+    "impressions": "impressions",
+    "clicks": "clicks",
+    "spend": "media_spend_usd"
+  },
+  "definitions": {
+    "subscriptions": "Paid conversions occurring on each date.",
+    "trials": "Unique people starting a trial.",
+    "active_users": "Daily active users.",
+    "feature_adoptions": "Adoption of the platform's core feature set.",
+    "channel": "Original acquisition source."
+  },
+  "paid_channel_value": "Paid Search",
+  "deduplication": {
+    "key": "record_id",
+    "keep": "latest_load"
+  }
+}
+

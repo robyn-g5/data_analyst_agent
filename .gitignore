@@ -1,0 +1,18 @@
+.DS_Store
+
+# generated example-run artifacts — regenerate via the pipeline, don't commit
+/outputs/
+reusable_analytics_workflow/outputs/*
+!reusable_analytics_workflow/outputs/.gitkeep
+
+# frontend (Next.js) — see frontend/.gitignore for the full set
+frontend/node_modules/
+frontend/.next/
+frontend/.env*.local
+
+# backend (FastAPI) — see backend/.gitignore for the full set
+backend/.venv/
+backend/__pycache__/
+backend/.env
+backend/app/workspace/*
+!backend/app/workspace/.gitkeep
