@@ -8,7 +8,7 @@ import { useRuns } from "@/hooks/useRuns";
 import { useChatMessages, useInvalidateChat } from "@/hooks/useChatMessages";
 import { useRunStatus } from "@/hooks/useRunStatus";
 import { useRunDetail } from "@/hooks/useRunDetail";
-import { sendMessage, downloadUrl } from "@/lib/api";
+import { sendMessage, downloadUrl, deleteRun, clearChat } from "@/lib/api";
 
 export default function WorkspacePage() {
   const { data: runs = [] } = useRuns();
@@ -43,6 +43,17 @@ export default function WorkspacePage() {
     }
   }
 
+  async function handleDeleteRun(runId: string) {
+    await deleteRun(runId);
+    if (selectedRunId === runId) setSelectedRunId(null);
+    invalidateChat();
+  }
+
+  async function handleClearChat() {
+    await clearChat();
+    invalidateChat();
+  }
+
   const downloads = runDetail
     ? [
         { label: "Dashboard", url: downloadUrl(runDetail.id, "dashboard_html") },
@@ -57,8 +68,13 @@ export default function WorkspacePage() {
         <h1 className="text-sm font-semibold text-neutral-900">Executive Analytics</h1>
       </header>
       <div className="flex min-h-0 flex-1">
-        <RunHistoryPanel runs={runs} selectedRunId={selectedRunId} onSelect={setSelectedRunId} />
-        <ChatPanel messages={messages} onSend={handleSend} sending={sending} />
+        <RunHistoryPanel
+          runs={runs}
+          selectedRunId={selectedRunId}
+          onSelect={setSelectedRunId}
+          onDelete={handleDeleteRun}
+        />
+        <ChatPanel messages={messages} onSend={handleSend} onClear={handleClearChat} sending={sending} />
         <DashboardPanel run={selectedRun} dashboardUrl={runDetail?.dashboard_html_url} downloads={downloads} />
       </div>
     </div>

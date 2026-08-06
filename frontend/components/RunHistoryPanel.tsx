@@ -1,5 +1,6 @@
 "use client";
 
+import type { MouseEvent } from "react";
 import type { RunSummary } from "@/lib/types";
 import { STEP_LABELS, TONE_CLASSES, formatRunLabel, statusTone } from "@/lib/status";
 
@@ -7,9 +8,17 @@ interface RunHistoryPanelProps {
   runs: RunSummary[];
   selectedRunId: string | null;
   onSelect: (runId: string) => void;
+  onDelete: (runId: string) => void;
 }
 
-export function RunHistoryPanel({ runs, selectedRunId, onSelect }: RunHistoryPanelProps) {
+export function RunHistoryPanel({ runs, selectedRunId, onSelect, onDelete }: RunHistoryPanelProps) {
+  function handleDelete(event: MouseEvent, run: RunSummary) {
+    event.stopPropagation();
+    if (window.confirm(`Delete the ${formatRunLabel(run.run_date)} run? This can't be undone.`)) {
+      onDelete(run.id);
+    }
+  }
+
   return (
     <aside className="flex h-full w-64 shrink-0 flex-col border-r border-neutral-200 bg-white">
       <div className="border-b border-neutral-200 px-4 py-4">
@@ -27,10 +36,10 @@ export function RunHistoryPanel({ runs, selectedRunId, onSelect }: RunHistoryPan
             const active = run.id === selectedRunId;
             const tone = statusTone(run.status);
             return (
-              <li key={run.id}>
+              <li key={run.id} className="group relative">
                 <button
                   onClick={() => onSelect(run.id)}
-                  className={`flex w-full flex-col items-start gap-1 border-l-2 px-4 py-3 text-left transition ${
+                  className={`flex w-full flex-col items-start gap-1 border-l-2 py-3 pl-4 pr-9 text-left transition ${
                     active
                       ? "border-neutral-900 bg-neutral-50"
                       : "border-transparent hover:bg-neutral-50"
@@ -44,6 +53,13 @@ export function RunHistoryPanel({ runs, selectedRunId, onSelect }: RunHistoryPan
                   >
                     {STEP_LABELS[run.status]}
                   </span>
+                </button>
+                <button
+                  onClick={(e) => handleDelete(e, run)}
+                  aria-label={`Delete ${formatRunLabel(run.run_date)} run`}
+                  className="absolute right-2 top-3 rounded p-1 text-neutral-300 opacity-0 transition hover:bg-neutral-200 hover:text-neutral-600 group-hover:opacity-100"
+                >
+                  ×
                 </button>
               </li>
             );

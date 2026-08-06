@@ -24,6 +24,13 @@ def download_bytes(bucket: str, path: str) -> bytes:
     return client.storage.from_(bucket).download(path)
 
 
+def remove_objects(bucket: str, paths: list[str]) -> None:
+    if not paths:
+        return
+    client = get_service_client()
+    client.storage.from_(bucket).remove(paths)
+
+
 def signed_url(bucket: str, path: str, expires_in: int = SIGNED_URL_EXPIRES_IN) -> str:
     client = get_service_client()
     result = client.storage.from_(bucket).create_signed_url(path, expires_in)

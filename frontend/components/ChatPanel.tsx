@@ -7,10 +7,11 @@ import { Dropzone } from "./Dropzone";
 interface ChatPanelProps {
   messages: ChatMessage[];
   onSend: (content: string, files: File[]) => void | Promise<void>;
+  onClear: () => void;
   sending?: boolean;
 }
 
-export function ChatPanel({ messages, onSend, sending }: ChatPanelProps) {
+export function ChatPanel({ messages, onSend, onClear, sending }: ChatPanelProps) {
   const [content, setContent] = useState("");
   const [files, setFiles] = useState<File[]>([]);
 
@@ -22,13 +23,29 @@ export function ChatPanel({ messages, onSend, sending }: ChatPanelProps) {
     setFiles([]);
   }
 
+  function handleClear() {
+    if (window.confirm("Clear the whole chat history? This can't be undone.")) {
+      onClear();
+    }
+  }
+
   return (
     <section className="flex h-full min-w-0 flex-1 flex-col border-r border-neutral-200 bg-neutral-50">
-      <div className="border-b border-neutral-200 bg-white px-5 py-4">
-        <h2 className="text-sm font-semibold text-neutral-900">Team chat</h2>
-        <p className="mt-0.5 text-xs text-neutral-500">
-          One ongoing conversation — drop CSVs here to run a new analysis
-        </p>
+      <div className="flex items-center justify-between border-b border-neutral-200 bg-white px-5 py-4">
+        <div>
+          <h2 className="text-sm font-semibold text-neutral-900">Team chat</h2>
+          <p className="mt-0.5 text-xs text-neutral-500">
+            One ongoing conversation — drop CSVs here to run a new analysis
+          </p>
+        </div>
+        {messages.length > 0 && (
+          <button
+            onClick={handleClear}
+            className="shrink-0 rounded-md border border-neutral-300 px-2.5 py-1.5 text-xs font-medium text-neutral-700 transition hover:bg-neutral-50"
+          >
+            Clear chat
+          </button>
+        )}
       </div>
 
       <div className="flex-1 space-y-4 overflow-y-auto px-5 py-4">

@@ -92,6 +92,26 @@ def get_run_file(run_id: str, file_key: FileKey) -> RedirectResponse:
     return RedirectResponse(storage.signed_url(storage.outputs_bucket(), path))
 
 
+@router.delete("/{run_id}", status_code=204)
+def delete_run(run_id: str) -> None:
+    row = db.get_run(run_id)
+    if not row:
+        raise HTTPException(status_code=404, detail="Run not found")
+    output_paths = [
+        row[col]
+        for col in (
+            "validation_report_path",
+            "analysis_results_path",
+            "report_md_path",
+            "dashboard_html_path",
+            "config_path",
+        )
+        if row.get(col)
+    ]
+    storage.remove_objects(storage.outputs_bucket(), output_paths)
+    db.delete_run(run_id)
+
+
 @router.post("/{run_id}/clarify", response_model=RunSummaryOut)
 def clarify_run(run_id: str, body: ClarifyRequest, background_tasks: BackgroundTasks) -> RunSummaryOut:
     row = db.get_run(run_id)

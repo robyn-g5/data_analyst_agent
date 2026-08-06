@@ -56,3 +56,13 @@ export async function submitClarification(runId: string, answer: string): Promis
 export function downloadUrl(runId: string, fileKey: string): string {
   return `${API_BASE}/api/runs/${runId}/files/${fileKey}`;
 }
+
+export async function deleteRun(runId: string): Promise<void> {
+  const res = await fetch(`${API_BASE}/api/runs/${runId}`, { method: "DELETE" });
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+}
+
+export async function clearChat(): Promise<void> {
+  const res = await fetch(`${API_BASE}/api/chat/messages`, { method: "DELETE" });
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+}

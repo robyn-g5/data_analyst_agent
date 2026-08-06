@@ -47,3 +47,8 @@ async def post_message(
 def list_messages(since: str | None = None, limit: int = 50) -> ChatMessagesResponse:
     rows = db.list_chat_messages(since_id=since, limit=limit)
     return ChatMessagesResponse(messages=[_to_message_out(r) for r in rows])
+
+
+@router.delete("/messages", status_code=204)
+def clear_messages() -> None:
+    db.delete_all_chat_messages()

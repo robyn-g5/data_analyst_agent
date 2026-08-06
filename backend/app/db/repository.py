@@ -40,6 +40,11 @@ def update_chat_message(message_id: str, **fields: Any) -> None:
     _client().table("chat_messages").update(fields).eq("id", message_id).execute()
 
 
+def delete_all_chat_messages() -> None:
+    # chat_attachments rows cascade-delete via their message_id FK.
+    _client().table("chat_messages").delete().neq("id", "00000000-0000-0000-0000-000000000000").execute()
+
+
 # --- chat attachments ----------------------------------------------------
 
 def insert_chat_attachment(
@@ -88,6 +93,14 @@ def list_runs() -> list[dict[str, Any]]:
 def update_run(run_id: str, **fields: Any) -> None:
     fields["updated_at"] = datetime.now(timezone.utc).isoformat()
     _client().table("runs").update(fields).eq("id", run_id).execute()
+
+
+def delete_run(run_id: str) -> None:
+    # Detach references first — chat_messages/chat_attachments.run_id have no
+    # cascade, so deleting the run row would otherwise fail with an FK error.
+    _client().table("chat_messages").update({"run_id": None}).eq("run_id", run_id).execute()
+    _client().table("chat_attachments").update({"run_id": None}).eq("run_id", run_id).execute()
+    _client().table("runs").delete().eq("id", run_id).execute()
 
 
 def find_accumulating_run(window_minutes: int = 30) -> dict[str, Any] | None:
