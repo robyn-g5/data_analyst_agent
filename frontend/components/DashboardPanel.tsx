@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import type { RunSummary } from "@/lib/types";
 import { STEP_LABELS, formatRunLabel, isTerminal } from "@/lib/status";
 
@@ -38,19 +39,18 @@ export function DashboardPanel({ run, dashboardUrl, downloads = [] }: DashboardP
           </h2>
           <p className="mt-0.5 text-xs text-neutral-500">{STEP_LABELS[run.status]}</p>
         </div>
-        {downloads.length > 0 && (
-          <div className="flex gap-2">
-            {downloads.map((d) => (
-              <a
-                key={d.url}
-                href={d.url}
-                className="rounded-md border border-neutral-300 px-2.5 py-1.5 text-xs font-medium text-neutral-700 transition hover:bg-neutral-50"
-              >
-                {d.label}
-              </a>
-            ))}
-          </div>
-        )}
+        <div className="flex gap-2">
+          {dashboardUrl && <CopyLinkButton url={dashboardUrl} />}
+          {downloads.map((d) => (
+            <a
+              key={d.url}
+              href={d.url}
+              className="rounded-md border border-neutral-300 px-2.5 py-1.5 text-xs font-medium text-neutral-700 transition hover:bg-neutral-50"
+            >
+              {d.label}
+            </a>
+          ))}
+        </div>
       </div>
 
       {!isTerminal(run.status) && (
@@ -82,6 +82,25 @@ export function DashboardPanel({ run, dashboardUrl, downloads = [] }: DashboardP
         )}
       </div>
     </section>
+  );
+}
+
+function CopyLinkButton({ url }: { url: string }) {
+  const [copied, setCopied] = useState(false);
+
+  async function handleClick() {
+    await navigator.clipboard.writeText(url);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  }
+
+  return (
+    <button
+      onClick={handleClick}
+      className="rounded-md border border-neutral-300 px-2.5 py-1.5 text-xs font-medium text-neutral-700 transition hover:bg-neutral-50"
+    >
+      {copied ? "Link copied" : "Copy link"}
+    </button>
   );
 }
 
