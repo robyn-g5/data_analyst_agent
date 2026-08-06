@@ -3,6 +3,7 @@ from __future__ import annotations
 from datetime import datetime, timedelta, timezone
 from typing import Any
 
+from app.core.retry import retry_on_disconnect
 from app.core.supabase_client import get_service_client
 
 
@@ -12,6 +13,7 @@ def _client():
 
 # --- chat messages -----------------------------------------------------
 
+@retry_on_disconnect
 def insert_chat_message(
     *, author_id: str | None, role: str, content: str, run_id: str | None = None
 ) -> dict[str, Any]:
@@ -20,6 +22,7 @@ def insert_chat_message(
     return resp.data[0]
 
 
+@retry_on_disconnect
 def list_chat_messages(since_id: str | None = None, limit: int = 50) -> list[dict[str, Any]]:
     query = (
         _client()
@@ -36,10 +39,12 @@ def list_chat_messages(since_id: str | None = None, limit: int = 50) -> list[dic
     return resp.data
 
 
+@retry_on_disconnect
 def update_chat_message(message_id: str, **fields: Any) -> None:
     _client().table("chat_messages").update(fields).eq("id", message_id).execute()
 
 
+@retry_on_disconnect
 def delete_all_chat_messages() -> None:
     # chat_attachments rows cascade-delete via their message_id FK.
     _client().table("chat_messages").delete().neq("id", "00000000-0000-0000-0000-000000000000").execute()
@@ -47,6 +52,7 @@ def delete_all_chat_messages() -> None:
 
 # --- chat attachments ----------------------------------------------------
 
+@retry_on_disconnect
 def insert_chat_attachment(
     *,
     message_id: str,
@@ -68,6 +74,7 @@ def insert_chat_attachment(
     return resp.data[0]
 
 
+@retry_on_disconnect
 def list_attachments_for_run(run_id: str) -> list[dict[str, Any]]:
     resp = _client().table("chat_attachments").select("*").eq("run_id", run_id).execute()
     return resp.data
@@ -75,26 +82,31 @@ def list_attachments_for_run(run_id: str) -> list[dict[str, Any]]:
 
 # --- runs ------------------------------------------------------------
 
+@retry_on_disconnect
 def create_run(*, created_by: str | None) -> dict[str, Any]:
     resp = _client().table("runs").insert({"created_by": created_by}).execute()
     return resp.data[0]
 
 
+@retry_on_disconnect
 def get_run(run_id: str) -> dict[str, Any] | None:
     resp = _client().table("runs").select("*").eq("id", run_id).execute()
     return resp.data[0] if resp.data else None
 
 
+@retry_on_disconnect
 def list_runs() -> list[dict[str, Any]]:
     resp = _client().table("runs").select("*").order("run_date", desc=True).order("created_at", desc=True).execute()
     return resp.data
 
 
+@retry_on_disconnect
 def update_run(run_id: str, **fields: Any) -> None:
     fields["updated_at"] = datetime.now(timezone.utc).isoformat()
     _client().table("runs").update(fields).eq("id", run_id).execute()
 
 
+@retry_on_disconnect
 def delete_run(run_id: str) -> None:
     # Detach references first — chat_messages/chat_attachments.run_id have no
     # cascade, so deleting the run row would otherwise fail with an FK error.
@@ -103,6 +115,7 @@ def delete_run(run_id: str) -> None:
     _client().table("runs").delete().eq("id", run_id).execute()
 
 
+@retry_on_disconnect
 def find_accumulating_run(window_minutes: int = 30) -> dict[str, Any] | None:
     """A run still in 'pending' created recently enough that new attachments
     should join it instead of starting a new tab."""
