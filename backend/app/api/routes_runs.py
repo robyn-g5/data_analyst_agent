@@ -92,7 +92,7 @@ def get_run_file(run_id: str, file_key: FileKey) -> RedirectResponse:
     return RedirectResponse(storage.signed_url(storage.outputs_bucket(), path))
 
 
-@router.delete("/{run_id}", status_code=204)
+@router.delete("/{run_id}", status_code=204, response_model=None)
 def delete_run(run_id: str) -> None:
     row = db.get_run(run_id)
     if not row:

@@ -49,6 +49,6 @@ def list_messages(since: str | None = None, limit: int = 50) -> ChatMessagesResp
     return ChatMessagesResponse(messages=[_to_message_out(r) for r in rows])
 
 
-@router.delete("/messages", status_code=204)
+@router.delete("/messages", status_code=204, response_model=None)
 def clear_messages() -> None:
     db.delete_all_chat_messages()
