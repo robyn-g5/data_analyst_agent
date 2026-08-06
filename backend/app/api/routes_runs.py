@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 from typing import Literal
 
 from fastapi import APIRouter, BackgroundTasks, HTTPException, Request
@@ -10,6 +11,7 @@ from app.models.schemas import ClarifyRequest, RunDetailOut, RunSummaryOut, Runs
 from app.services import pipeline_runner, storage
 
 router = APIRouter(prefix="/api/runs", tags=["runs"])
+logger = logging.getLogger(__name__)
 
 FileKey = Literal["validation_report", "analysis_results", "report_md", "dashboard_html", "config"]
 
@@ -25,7 +27,14 @@ _FILE_KEY_TO_COLUMN = {
 def _signed_or_none(path: str | None) -> str | None:
     if not path:
         return None
-    return storage.signed_url(storage.outputs_bucket(), path)
+    try:
+        return storage.signed_url(storage.outputs_bucket(), path)
+    except Exception:
+        # A transient Storage failure on one download link shouldn't take
+        # down the whole run-detail response — the dashboard itself is
+        # served separately via /dashboard and doesn't depend on this.
+        logger.warning("Failed to sign URL for %s", path, exc_info=True)
+        return None
 
 
 def _to_run_detail(row: dict, request: Request) -> RunDetailOut:
