@@ -18,6 +18,8 @@ Create a project at [supabase.com](https://supabase.com), then run the SQL in `b
 
 Copy your project's URL, anon key, and service-role key (Project Settings → API) into the env files below. The backend verifies user tokens by calling Supabase Auth directly (`auth.get_user`), so no separate JWT secret is needed.
 
+**Auth is passwordless** (magic link only — no password step). In Supabase → **Authentication → URL Configuration**, set **Site URL** to your deployed frontend origin, and add `<your-origin>/auth/confirm` to **Redirect URLs**. For local dev, `http://localhost:3000` / `http://localhost:3000/auth/confirm`.
+
 ### 2. Backend
 
 ```bash
