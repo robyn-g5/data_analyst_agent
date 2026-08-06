@@ -86,12 +86,16 @@ export function DashboardPanel({ run, dashboardUrl, downloads = [] }: DashboardP
 }
 
 function CopyLinkButton({ url }: { url: string }) {
-  const [copied, setCopied] = useState(false);
+  const [status, setStatus] = useState<"idle" | "copied" | "failed">("idle");
 
   async function handleClick() {
-    await navigator.clipboard.writeText(url);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    try {
+      await navigator.clipboard.writeText(url);
+      setStatus("copied");
+    } catch {
+      setStatus("failed");
+    }
+    setTimeout(() => setStatus("idle"), 2000);
   }
 
   return (
@@ -99,7 +103,7 @@ function CopyLinkButton({ url }: { url: string }) {
       onClick={handleClick}
       className="rounded-md border border-neutral-300 px-2.5 py-1.5 text-xs font-medium text-neutral-700 transition hover:bg-neutral-50"
     >
-      {copied ? "Link copied" : "Copy link"}
+      {status === "copied" ? "Link copied" : status === "failed" ? "Couldn't copy" : "Copy link"}
     </button>
   );
 }
