@@ -35,7 +35,7 @@ export function DashboardPanel({ run, dashboardUrl, downloads = [] }: DashboardP
       <div className="flex items-center justify-between border-b border-neutral-200 px-5 py-4">
         <div>
           <h2 className="text-sm font-semibold text-neutral-900">
-            {formatRunLabel(run.run_date)}
+            {formatRunLabel(run.created_at)}
           </h2>
           <p className="mt-0.5 text-xs text-neutral-500">{STEP_LABELS[run.status]}</p>
         </div>

@@ -32,7 +32,11 @@ export const TONE_CLASSES: Record<ReturnType<typeof statusTone>, string> = {
   error: "bg-red-50 text-red-700",
 };
 
-export function formatRunLabel(runDate: string): string {
-  const date = new Date(`${runDate}T00:00:00`);
+// Takes the run's `created_at` timestamp (not `run_date`, which is computed
+// server-side in UTC and can read as "tomorrow" once it's evening in any
+// timezone behind UTC) and formats it in the viewer's own local timezone,
+// so the tab always shows the date it actually happened for them.
+export function formatRunLabel(createdAt: string): string {
+  const date = new Date(createdAt);
   return date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
 }

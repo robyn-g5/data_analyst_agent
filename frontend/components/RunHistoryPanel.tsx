@@ -14,7 +14,7 @@ interface RunHistoryPanelProps {
 export function RunHistoryPanel({ runs, selectedRunId, onSelect, onDelete }: RunHistoryPanelProps) {
   function handleDelete(event: MouseEvent, run: RunSummary) {
     event.stopPropagation();
-    if (window.confirm(`Delete the ${formatRunLabel(run.run_date)} run? This can't be undone.`)) {
+    if (window.confirm(`Delete the ${formatRunLabel(run.created_at)} run? This can't be undone.`)) {
       onDelete(run.id);
     }
   }
@@ -46,7 +46,7 @@ export function RunHistoryPanel({ runs, selectedRunId, onSelect, onDelete }: Run
                   }`}
                 >
                   <span className="text-sm font-medium text-neutral-900">
-                    {formatRunLabel(run.run_date)}
+                    {formatRunLabel(run.created_at)}
                   </span>
                   <span
                     className={`inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-medium ${TONE_CLASSES[tone]}`}
@@ -56,7 +56,7 @@ export function RunHistoryPanel({ runs, selectedRunId, onSelect, onDelete }: Run
                 </button>
                 <button
                   onClick={(e) => handleDelete(e, run)}
-                  aria-label={`Delete ${formatRunLabel(run.run_date)} run`}
+                  aria-label={`Delete ${formatRunLabel(run.created_at)} run`}
                   className="absolute right-2 top-3 rounded p-1 text-neutral-300 opacity-0 transition hover:bg-neutral-200 hover:text-neutral-600 group-hover:opacity-100"
                 >
                   ×
